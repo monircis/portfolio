@@ -1,0 +1,1839 @@
+/*--- sustom css ---*/
+
+@font-face {
+    font-family: Gotham Light;
+    src: url(../fonts/gotham_light.eot);
+    src: url(../fonts/gotham-light.woff);
+    src: url(../fonts/gotham-light.ttf);
+}
+@font-face {
+    font-family: Gotham Book;
+    src: url(../fonts/gotham-book.eot);
+    src: url(../fonts/gotham-book.woff);
+    src: url(../fonts/gotham-book.ttf);
+}
+@font-face {
+    font-family: Gotham Medium;
+    src: url(../fonts/gotham-medium.eot);
+    src: url(../fonts/gotham-medium.woff);
+    src: url(../fonts/gotham-medium.ttf);
+}
+@font-face {
+    font-family: Gotham Thin;
+    src: url(../fonts/gotham-thin.eot);
+    src: url(../fonts/gotham-thin.woff);
+    src: url(../fonts/gotham-thin.ttf);
+}
+@font-face {
+    font-family: Gotham Black;
+    src: url(../fonts/gotham-black.eot);
+    src: url(../fonts/gotham-black.woff);
+    src: url(../fonts/gotham-black.ttf);
+}
+@font-face {
+    font-family: Blenda Script;
+    src: url(../fonts/BlendaScript.eot);
+    src: url(../fonts/BlendaScript.woff);
+    src: url(../fonts/BlendaScript.ttf);
+}
+@font-face {
+    font-family: Gotham Bold;
+    src: url(../fonts/gotham-bold.eot);
+    src: url(../fonts/gotham-bold.woff);
+    src: url(../fonts/gotham-bold.ttf);
+}
+@font-face {
+    font-family: Great Vibes;
+    src: url(../fonts/GreatVibes-Regular.eot);
+    src: url(../fonts/GreatVibes-Regular.woff);
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+body {
+    background: url(../img/bg.png) repeat;
+    opacity: 1;
+    color: #fff;
+    font-family: Gotham Light;
+}
+.container-fluid {
+    padding: 0;
+}
+.container-fluid>.max-area {
+    padding: 0;
+    margin: auto;
+    display: block;
+    max-width: 1280px;
+    background: #fff;
+    overflow: hidden;
+}
+header {
+    background: #fff;
+}
+.top-section {
+    padding: 25px 23px 35px 0;
+}
+.social-listing li {
+    display: inline;
+    font-size: 17px;
+    list-style: outside none none;
+    margin-left: 9px;
+}
+.social-listing li a {
+    color: #571433;
+}
+.social-listing li a:hover,
+.social-listing li a:focus {
+    color: #bc085b;
+    
+}
+.logo {
+    text-align: center;
+    position: relative;
+}
+.logo img {
+    margin: -32px auto auto;
+    opacity: 1;
+}
+.main-menu {
+    background: #571433;
+    border-radius: 0;
+    text-align: center;
+    padding: 0.4rem 1rem;
+}
+.main-menu .navbar-nav,
+.main-menu .navbar-nav li {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Gotham Book;
+    font-size: 13.3px;
+}
+.nav {
+    padding-top: 4px;
+}
+.main-menu .navbar-nav .nav-link {
+    margin: 3px 6px !important;
+    padding: 0;
+}
+.main-menu .navbar-nav .nav-item::after {
+    content: "|";
+    color: #fff;
+}
+.main-menu .navbar-nav .nav-item:last-child:after {
+    content: " ";
+}
+.navbar-nav .nav-link {
+    display: inline-block;
+}
+.navbar-nav .nav-item + .nav-item {
+    margin: 0;
+}
+.main-menu .navbar-nav li a {
+    padding: 2px 5px 2px 5px !important;
+    color: #fff;
+}
+.main-menu .navbar-nav li a:hover,
+.main-menu .navbar-nav li a.active {
+    background: #bc085b none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+      
+}
+.navbar-toggler {
+    border-color: #fff;
+    
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(0, 0, 0, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E");
+    cursor: pointer;
+}
+.slider-area {
+    display: block;
+    position: relative;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+.slider-area .carousel-inner {
+    width: 101%;
+}
+.slider-caption {
+    background-color: rgba(255, 255, 255, .7);
+    margin: auto;
+    max-width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    bottom: 88px;
+    color: #571433;
+    text-shadow: none;
+}
+.slider-caption h3 {
+    font-family: "Great Vibes", cursive;
+    font-size: 54px;
+    opacity: 1;
+    margin-top: 88px;
+}
+.slider-caption p {
+    font-family: Gotham Medium;
+    font-size: 25px;
+    margin-top: -26px;
+}
+.highlight-info {
+    background-color: rgba(251, 250, 248, 0.93);
+    display: block;
+    margin-top: -53px;
+    min-height: 56px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #581433;
+    font-family: Gotham Book;
+}
+.highlight-info span {
+    text-shadow: .6px 0 #581433;
+}
+.highlight-info .btn {
+    background: #571433;
+    color: #fff;
+    border-radius: 0;
+    padding: 8px 44px;
+}
+.highlight-info .btn:hover {
+    color: #fff;
+    background: #bc085b;
+}
+.highlight-info span,
+.highlight-info .btn {
+    margin: 8px 23px;
+}
+.experience-section {
+    margin: auto;
+    max-width: 1025px;
+}
+.taginfo {
+    margin: auto;
+    max-width: 795px;
+}
+.title-heading {
+    max-width: 1025px;
+    border-top: 1px solid #ded0d6;
+    text-align: center;
+    color: #581433;
+    position: relative;
+    display: block;
+    margin-bottom: 23px;
+    margin-top: 58px;
+}
+.title-heading h3 {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-family: Gotham Book;
+    font-size: 23px;
+    padding: 0 15px;
+    position: relative;
+    top: -15px;
+    color: #581433;
+}
+.title-heading i {
+    font-size: 6px;
+    position: relative;
+    top: -19px;
+}
+.icon-bar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    background: #581433;
+    float: left;
+    display: inline;
+    margin-right: 13px;
+}
+.icon-bar img {
+    display: inline-block;
+    margin-top: 26%;
+}
+.bar-info {
+    color: #571433;
+    margin-top: 10px;
+}
+.bar-info h4 {
+    font-family: Gotham Book;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.bar-info p {
+    font-family: Gotham Thin;
+    font-size: 12px;
+    margin-top: -9px;
+}
+.video-section {
+    max-width: 1025px;
+    margin: auto;
+}
+.video-section .title-heading {
+    margin-top: 98px;
+}
+.video {
+    margin-top: -45px;
+}
+.date-circle {
+    background: #581433 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 70px;
+    z-index: 1000;
+}
+.date-circle h4 {
+    font-family: Gotham Black;
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.date-circle p {
+    font-family: Gotham Thin;
+    font-size: 17px;
+    margin-top: -10px;
+}
+.video-title {
+    background-color: rgba(88, 20, 51, 0.9);
+    font-family: Blenda Script;
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: -92px;
+    min-height: 42px;
+    position: relative;
+    text-align: center;
+    line-height: 39px;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    
+    -webkit-transform: rotate(-2deg);
+    /* Chrome, Safari, Opera */
+    
+    transform: rotate(-2deg);
+}
+.area {
+    max-width: 411px;
+    position: relative;
+}
+.video .area .video-title {
+    margin-bottom: 38px;
+    margin-top: -101px;
+}
+.video .area .playpause {
+    height: 115px;
+    top: -6px;
+    width: 115px;
+}
+.video .area .playpause i.fa.fa-play {
+    cursor: pointer;
+    font-size: 54px;
+    margin: 32px 44px;
+}
+.featured-video .video-width div.video {
+    margin-top: -45px;
+}
+.placevideo {
+    display: block;
+    margin-top: -24px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.placevideo .video {
+    margin-top: 15px;
+}
+.top-border {
+    background: #000000;
+    position: relative;
+    height: 24px;
+}
+.bottom-border {
+    background: #000000 none repeat scroll 0 0;
+    height: 24px;
+    margin-top: -19px;
+    position: relative;
+}
+.play-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: block;
+    height: 114px;
+    margin: auto;
+    position: absolute;
+    right: 36%;
+    text-align: center;
+    top: 25%;
+    width: 114px;
+    z-index: 1000;
+}
+.play-icon > i {
+    margin: 32px auto;
+}
+.play-icon:hover {
+   color: #bc085b;
+}
+.featured-video {
+    text-align: center;
+    margin: -10px auto;
+}
+.featured-video .video-width {
+    margin: 0 46px;
+    overflow: hidden;
+}
+.video-width {
+    display: inline-block;
+    margin: auto;
+    max-width: 411px;
+}
+.btn-more-video {
+    margin: 33px auto auto;
+    display: inline-block;
+    text-align: center;
+    background: #571433 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    padding: 8px 44px;
+    font-family: Gotham Book;
+    font-size: 19px;
+}
+.btn-more-video:hover,
+.btn-more-video:focus {
+    background: #bc085b;
+    color: #fff;
+    border: 1px solid #bc085b;
+   
+}
+.we-offer {
+    margin-top: 117px;
+}
+.offer-info {
+    text-align: left;
+    color: #262626;
+    font-family: Gotham Light;
+    max-width: 955px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px auto 285px;
+}
+.offer-info p {
+    font-size: 12.5px;
+}
+.offer-info p span {
+    text-align: right;
+    display: block;
+    margin-top: 42px
+}
+.footer-center-area {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 38px;
+    padding-bottom: 1px;
+    padding-top: 4px;
+    width: 100%
+}
+.footer-center-area ul {
+    text-align: center;
+    margin-top: 14px;
+}
+.footer-center-area ul li {
+    display: inline-block;
+    font-family: Gotham Book;
+    font-size: 11.5px;
+    list-style: outside none none;
+    margin: 2px;
+    text-align: center;
+}
+.main-menu .dropdown-menu {
+    background-color: #571433;
+    border: medium none;
+    border-radius: 0 0 3px 3px;
+    color: #373a3c;
+    font-family: Gotham Book;
+    font-size: 13.3px;
+    left: -5px;
+    padding: 11px 7px 5px 5px;
+    top: 28px;
+}
+.fa.fa-play {
+    font-size: 54px;
+    color: #571433;
+    
+}
+.main-menu .navbar-nav li>.dropdown-menu a,
+.main-menu .dropdown-menu a:hover {
+    padding: 2px 8px !important;
+}
+/*  BLOG page css*/
+
+.top-bar {
+    background: #571433 none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 12px 19px 6px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-bottom: 37px;
+}
+.top-bar h3 {
+    text-align: left;
+    float: left;
+    display: inline;
+    font-family: Gotham Medium;
+    font-size: 15px;
+    color: #fff;
+}
+.top-bar span {
+    float: left;
+    font-family: Gotham Thin;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+.post-image {
+    overflow: hidden;
+    text-align: center;
+}
+.content-block {
+    overflow: hidden;
+    max-width: 960px;
+    margin: auto;
+    color: #000;
+    padding: 0 15px;
+}
+.content-block h4 {
+    font-family: Gotham Bold;
+    font-size: 18.4px;
+    margin-top: 30px;
+}
+.content-block ul {
+    margin-left: 10px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.social-list ul.share-icon {
+    margin-left: 0 !important;
+}
+.content-block ul li {
+    font-family: Gotham Book;
+    font-size: 12.2px;
+    text-shadow: 0.4px 0 #444444;
+}
+.content-block p {
+    font-family: Gotham Book;
+    font-size: 12.2px;
+    margin-top: 15px;
+    text-shadow: 0.4px 0 #444444;
+}
+.blog-back {
+    background: #571433 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Gotham Medium;
+    font-size: 13.5px;
+    margin: 33px auto 54px;
+    padding: 7px 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.blog-back:hover {
+    background: #bc085b;
+    color: #fff;
+    
+    border: 1px solid #bc085b;
+}
+.social-list h5 {
+    font-family: Gotham Bold;
+    font-size: 15px;
+    color: #581433;
+    text-transform: uppercase;
+}
+.share-icon {
+    margin: 0;
+    padding: 0;
+}
+.share-icon li {
+    float: left;
+    display: inline;
+    list-style: none;
+    margin-right: 6px;
+    padding: 0;
+    margin-bottom: -8px;
+}
+.share-icon li:hover {
+    color: #bc085b;
+}
+.may-alsolike {
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: #000;
+    padding-bottom: 400px;
+}
+.each-section {
+    display: inline-block;
+    margin: 0 7px;
+}
+.each-section p {
+    font-family: Gotham Medium;
+    font-size: 14px;
+    margin-top: 17px;
+    text-transform: uppercase;
+}
+.each-section:hover {
+    opacity: .8;
+}
+.no-padding {
+    padding: 0;
+}
+.content {
+    overflow: hidden;
+}
+.condition {
+    margin-bottom: 400px;
+}
+.condition strong {
+    color: #222222;
+    text-shadow: none;
+}
+.condition p {
+    color: #000;
+    line-height: 12px;
+    text-shadow: 0.2px 0 #444444;
+}
+.condition p br {
+    display: block;
+    margin-bottom: 7px;
+}
+.condition ul li {
+    line-height: 14px;
+}
+/*  blogall  blog  page css*/
+
+.left-side {
+    display: inline;
+    float: left;
+    height: 49px;
+    margin: auto 14px auto auto;
+    width: 49px;
+}
+.left-side h4 {
+    font-family: Gotham;
+    font-size: 13px;
+    margin-bottom: -9px;
+    margin-top: 6px;
+    padding: 0;
+}
+.date-circle .month {
+    font-family: Gotham Book;
+    font-size: 11px;
+}
+.date-circle .year {
+    display: block;
+    font-family: Gotham Thin;
+    font-size: 11px;
+    margin-top: -7px;
+}
+.sub-section {
+    overflow: hidden;
+    margin-bottom: 42px;
+}
+.each-blog-post {
+    margin-bottom: 39px;
+}
+.text-blog-info {
+    overflow: hidden;
+}
+.text-blog-info h3 {
+    color: #000;
+    font-family: Gotham Bold;
+    font-size: 15px;
+    margin-bottom: -2px;
+    margin-top: 11px;
+    text-transform: uppercase;
+}
+.tags-line {
+    font-family: Gotham Light;
+    font-size: 13px;
+    color: #571433;
+    display: block;
+}
+.video-show {
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+    margin-top: 25px;
+}
+.video-show {
+    display: table;
+    width: auto;
+    position: relative;
+    max-width: 654px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video-display {
+    overflow: hidden;
+}
+.playpause {
+    background-repeat: no-repeat;
+    width: 136px;
+    height: 136px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -93px;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    z-index: 1000;
+}
+.playpause i.fa.fa-play {
+    font-size: 71px;
+    margin: 34px 47px;
+    cursor: pointer;
+}
+.playpause-pop {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    bottom: 0;
+    height: 115px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -7px;
+    width: 115px;
+    z-index: 1000;
+}
+.playpause-pop i.fa.fa-play {
+    cursor: pointer;
+    font-size: 55px;
+    margin: 34px 46px;
+}
+.modal-dialog .playpause {
+    top: -4px;
+}
+.modal-dialog .placevideo {
+    margin-bottom: -7px;
+    margin-top: -14px;
+}
+.video-show .video-title {
+    display: block;
+    font-size: 31px;
+    line-height: 65px;
+    margin-bottom: 0 !important;
+    margin-top: -138px;
+    position: absolute;
+    width: 100%;
+}
+.video-show p {
+    color: #636363;
+    font-family: Gotham Book;
+    font-size: 12.1px;
+    margin-top: 10px;
+    text-shadow: 0.4px 0 #c0c0c0;
+}
+.read-more {
+    background: #571433 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: Gotham Medium;
+    font-size: 12.5px;
+    margin-top: -3px;
+    max-width: 159px;
+    padding-top: 9px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.read-more:hover {
+      background: #bc085b;
+    color: #fff;
+     
+}
+.center-pagination {
+    text-align: center;
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 67px;
+}
+.center-pagination .pagination {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.center-pagination .pagination li {
+    display: inline-block;
+    line-height: 22px;
+    font-family: Gotham Book;
+}
+.center-pagination .pagination li a {
+    color: #581433;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #581433;
+}
+.center-pagination .pagination li.dot {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 9px;
+    position: relative;
+    top: -4px;
+}
+.center-pagination .pagination li a:hover,
+.center-pagination .pagination li a.active {
+    background: #bc085b;
+    color: #fff;
+    text-decoration: none;
+     border: 1px solid #bc085b;
+    
+}
+.header-sidebar {
+    width: 100%;
+    display: block;
+    background: #571433;
+    padding: 13px 0 5px 28px;
+}
+.header-sidebar h4 {
+    font-family: Gotham Medium;
+    font-size: 15px;
+    color: #bc085b;
+    text-transform: uppercase;
+    color: #fff;
+}
+.wine-book {
+    background: #f4f4f4;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 23px;
+}
+.wine-book img:hover {
+    opacity: .8;
+}
+.btn-download {
+    background: #571433 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: Gotham Medium;
+    font-size: 12.5px;
+    margin-top: 23px;
+    max-width: 228px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.btn-download:hover {
+     background: #bc085b;
+    color: #fff;
+}
+.contact-info {
+    padding: 22px;
+}
+.wine-book p,
+.wine-book>span {
+    color: #606060;
+    font-family: Gotham Book;
+    font-size: 15.3px;
+    text-align: left !important;
+    display: block;
+}
+.wine-book span {
+    text-shadow: 0.4px 0 #444444;
+    margin-bottom: 10px;
+    color: #3d3d3d;
+}
+.filter-area {
+    padding: 0;
+}
+.filter-list {
+    padding: 0;
+    overflow: hidden;
+    margin-top: 24px;
+}
+.filter-list li {
+    border-bottom: 1px solid #c3c3c3;
+    display: block;
+    list-style: outside none none;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    text-align: left;
+    font-size: 18px;
+}
+.filter-list li a {
+    color: #571433;
+}
+.filter-list li a span {
+    text-align: right;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 6px;
+    color: #571433;
+}
+
+.filter-list li:hover {
+    border-bottom: 1px solid #bc085b;
+}
+.filter-list li a:hover,.filter-list li a span:hover {
+    color: #bc085b;
+    text-decoration: none;
+}
+.filter-list li:last-child {
+    border-bottom: none;
+}
+.follow-us .social-listing {
+    text-align: center !important;
+    padding: 0;
+}
+.follow-us .social-listing li {
+    font-size: 21px;
+    margin: 0 5px;
+    text-align: center;
+}
+.fb-box {
+    overflow: hidden;
+    margin-top: 26px;
+}
+/*==================TEAM PAGE=================*/
+
+.top-slogan {
+    color: #000000;
+    font-family: Gotham Book;
+    font-size: 14px;
+    margin-bottom: 59px;
+    margin-top: -42px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0.4px 0 #444444;
+    text-transform: uppercase;
+}
+.section-team-info {
+    float: left;
+    margin-bottom: 52px;
+    width: 100%;
+}
+.team-information {
+    margin-bottom: 600px;
+}
+.left-photo {
+    border-radius: 50%;
+    margin-top: 7px;
+    max-height: 177px;
+    max-width: 177px;
+    overflow: hidden;
+}
+.right-speech p {
+    color: #000000;
+    font-size: 13px;
+    margin-top: -17px;
+    line-height: 16px;
+    text-shadow: 0.3px 0 #444444;
+}
+.right-speech br {
+    display: block;
+    margin-bottom: 4px;
+}
+/*==================CONTACT  PAGE=================*/
+
+.contact-info-form {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.radio-option {
+    display: inline-block;
+    float: left;
+    font-family: Gotham Medium;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+.radio-option label {
+    text-align: left;
+}
+input[type=radio].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+input[type=radio].with-font ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    font-size: 1.2em;
+    color: #571433;
+    width: 1.4em;
+    margin-left: 1px;
+    position: relative;
+    z-index: 1000;
+}
+input[type=radio].with-font:checked ~ label:before {
+    content: "\f111";
+    font-size: 1.2em;
+    color: #571433;
+    width: 1.4em;
+}
+input[type=radio].with-font:focus ~ label:before,
+input[type=radio].with-font:focus ~ label {
+    color: #571433;
+}
+.combine-form {
+    margin-bottom: 500px;
+}
+.combine-form .control-label {
+    background: #571433;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10.7pt;
+    font-family: Gotham Medium;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    text-shadow: none;
+    font-weight: lighter;
+}
+.combine-form input[type=text] {
+    background: #f0f0f0;
+    border-radius: 0;
+    color: #52565a;
+    height: 44px;
+    font-size: 10.7pt;
+    border: 0;
+}
+.combine-form input[type=number] {
+    background: #f0f0f0;
+    border-radius: 0;
+    color: #52565a;
+    font-size: 10.7pt;
+    height: 44px;
+    border: 0;
+}
+.combine-form .bootstrap-select button {
+    background: #f0f0f0;
+    border-radius: 0;
+    color: #52565a;
+    height: 44px;
+    font-size: 10.7pt;
+    border: 0;
+}
+.combine-form .has-success .form-control:focus {
+    box-shadow: none;
+}
+.combine-form .help-block {
+    float: left;
+    text-align: left !important;
+}
+.combine-form .form-group {
+    margin-bottom: 8px;
+}
+.combine-form .form-group .input-group-addon {
+    border: medium none;
+    font-size: 25px;
+    padding: 0 15px;
+    color: #571433;
+}
+#date_pick {
+    text-align: center;
+    font-family: Gotham Bold;
+    color: #571433;
+    font-size: 15px;
+    font-weight: normal !important;
+}
+#date_pick,#num_people,#wine_testing{
+    color: #571433;
+    font-family: Gotham Bold;
+    text-align: center !important;
+ 
+    font-size: 15px;
+}
+.dropdown-toggle::after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #571433;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: -4px;
+    vertical-align: middle;
+    width: 0;
+}
+.bootstrap-select.btn-group .btn .filter-option {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    color: #571433;
+    font-family: Gotham Bold;
+    text-align: center;
+    font-size: 10.7pt;
+}
+.selectpicker .text {
+    color: #571433;
+    display: block;
+    font-size: 10pt;
+    padding-top: 6px;
+    padding-left: 13px;
+    text-decoration: none;
+}
+.bootstrap-select.btn-group .dropdown-menu li {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 5px;
+}
+.bootstrap-select.btn-group .dropdown-menu li:last-child {
+    border: none;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    padding: 0;
+}
+.bootstrap-select.btn-group .dropdown-menu li a,
+.bootstrap-select.btn-group .dropdown-menu li.selected a {
+    text-decoration: none;
+}
+.bootstrap-select.btn-group .dropdown-menu li:hover {
+    background: #f1f1f1;
+}
+.combine-form .note-display p {
+    color: #444444;
+    font-family: Gotham Medium;
+    font-size: 15.5px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    margin-top: -2px;
+    text-align: left;
+    text-shadow: none !important;
+}
+.combine-form .card-header {
+    background-color: #571433;
+    color: #fff;
+    font-family: Gotham Medium;
+    font-size: 13.5px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.combine-form p.card-text {
+    color: #000000;
+    font-family: Myriad Pro;
+    font-size: 22.1px;
+    text-align: center;
+    margin-top: -3px;
+}
+.combine-form .card {
+    border: none;
+    border-radius: 0;
+}
+.combine-form .card-block {
+    background: #f0f0f0;
+}
+.combine-form textarea {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #52565a;
+    height: 44px;
+    margin-top: -7px;
+    min-height: 200px;
+}
+.combine-form textarea:focus {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+.combine-form .btn-send {
+    background-color: #571433;
+    border-radius: 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 0;
+    float: left;
+    text-transform: uppercase;
+    font-family: Gotham Medium;
+    max-width: 197px;
+    width: 100%;
+}
+.combine-form .btn-send:hover {
+     background: #bc085b;
+    color: #fff;
+}
+.note-small p {
+    color: #444444;
+    display: block;
+    float: left;
+    font-family: Gotham Medium;
+    font-size: 12.6px;
+    line-height: 20px;
+    margin-bottom: 13px;
+    margin-top: -12px;
+    text-align: left;
+    text-shadow: none;
+}
+.combine-form .confirm-chk .help-block {
+    display: block;
+    float: left;
+    margin-bottom: 22px;
+    margin-top: -10px;
+    text-align: left !important;
+    width: 100%;
+}
+#wine_testing_value::before,
+#food_value::before,
+#language_value::before,
+#total_values::before {
+    content: "\20ac";
+}
+
+.datepicker,
+.table-condensed {
+  width: 390px;
+  
+  
+ 
+}
+/*==================credits  PAGE=================*/
+
+.credits p {
+    font-family: Gotham Book;
+    color: #000000;
+    text-shadow: none !important;
+    font-size: 12.5px;
+    line-height: 12px;
+}
+.credits p span {
+    font-family: Gotham Bold;
+    text-shadow: none !important;
+}
+/*==================partners  PAGE=================*/
+
+.partners .partners-list {
+    font-family: Gotham Bold;
+    color: #000000;
+    text-shadow: none !important;
+    font-size: 12.5px;
+    line-height: 12px;
+    margin-bottom: 30px;
+}
+.each-partner {
+    display: block;
+    overflow: hidden;
+}
+.each-partner div {
+    height: 75px;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+}
+.each-partner span {
+    float: left;
+    font-family: Gotham Bold;
+    font-size: 12.5px;
+    margin-top: 24px;
+    text-shadow: none !important;
+}
+/*==================product  PAGE=================*/
+
+.product-title-heading {
+    color: #581433;
+    display: block;
+    max-width: 725px;
+    position: relative;
+    text-align: center;
+    margin: 39px auto 40px;
+}
+.product-title-heading::before {
+    content: url("../img/glass-big.png");
+    float: left;
+    left: 0;
+}
+.product-title-heading::after {
+    content: url("../img/glass-big.png");
+    float: right;
+    right: 0;
+}
+.product-title-heading h3 {
+    background: #fff none repeat scroll 0 0;
+    color: #581433;
+    display: inline-block;
+    font-family: Gotham Bold;
+    font-size: 18.3px;
+    position: relative;
+    top: 6px;
+}
+.product-title-heading h3 span {
+    background: #fff none repeat scroll 0 0;
+    color: #581433;
+    display: inline-block;
+    font-family: Gotham Book;
+    font-size: 17.8px;
+}
+.left-glass {
+    float: left;
+    display: inline;
+}
+.right-glass {
+    float: right;
+    display: inline;
+}
+.product-sidebar .header-sidebar h4 {
+    text-align: center;
+}
+.product-sidebar {
+    width: 30.3% !important;
+}
+.small-info-box {
+    background: #f4f4f4 none repeat scroll 0 0;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 23px;
+    padding-top: 21px;
+    width: 100%;
+}
+.each-info .date-circle {
+    width: 34px;
+    margin-left: 19px;
+    height: 34px;
+}
+.each-info .date-circle img {
+    margin-top: 7px;
+}
+.show-infos h4 {
+    color: #000;
+    font-family: Gotham Bold;
+    font-size: 14px;
+    margin-bottom: -5px;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+.show-infos span {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 11.3px;
+    text-transform: uppercase;
+}
+.show-infos img {
+    margin-right: 3px;
+    max-width: 24px;
+    position: relative;
+    top: -2px;
+}
+.product-sidebar .each-info {
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.content-product {
+    background: #f4f4f4 none repeat scroll 0 0;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 68%;
+}
+.content-product .panel-tabs {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+.content-product .nav-tabs li a {
+    background: #571433 none repeat scroll 0 0 !important;
+    border-radius: 0;
+    color: #fff;
+    font-family: Gotham Bold;
+    font-size: 14.2px;
+    list-style: outside none none;
+    margin: -1px !important;
+    padding: 14px 47px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content-product .nav-tabs .nav-item.open .nav-link,
+.content-product .nav-tabs .nav-item.open .nav-link:focus,
+.content-product .nav-tabs .nav-item.open .nav-link:hover,
+.content-product .nav-tabs .nav-link.active,
+.content-product .nav-tabs .nav-link.active:focus,
+.content-product .nav-tabs .nav-link.active:hover {
+       background: #bc085b !important;
+    color: #fff;
+}
+.content-product .nav-tabs .nav-link:focus, .content-product .nav-tabs .nav-link:hover{
+      background: #bc085b !important;
+    color: #fff;
+    border-color:  #bc085b;
+}
+.list-info-p {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    margin: 20px 20px -1px;
+    padding: 14px 0 1px;
+}
+.list-info-p span {
+    color: #000;
+    display: block;
+    font-family: Gotham Bold;
+    font-size: 14.2px;
+    margin-left: 26px;
+    margin-bottom: 6px;
+}
+.product-list-info li {
+    color: #000;
+    font-family: Gotham Light;
+    font-size: 13.4px;
+    line-height: 16px;
+    text-shadow: 0.2px 0 #581433;
+}
+.content-product .tab-content {
+    padding-bottom: 20px;
+    display: block;
+}
+.content-product .nav.nav-tabs {
+    margin-top: -3px;
+    position: relative;
+}
+.price-booking {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    margin: 20px 20px -1px;
+    padding: 4px 23px 23px;
+    overflow: hidden;
+}
+.price-booking h4 {
+    color: #000;
+    font-family: Gotham Bold;
+    font-size: 17.4px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.price-booking h4 small {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 13.2px;
+    text-transform: capitalize;
+}
+.price-booking .combine-form .bootstrap-select button {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+    top: 3px;
+    border-radius: 0;
+    left: 1px;
+    color: #000;
+    font-size: 10.7pt;
+    height: 21px;
+    max-width: 165px;
+}
+.price-booking .bootstrap-select.btn-group .btn .filter-option {
+    color: #571433;
+    float: left;
+    font-family: Gotham Book;
+    font-size: 10.7pt;
+    margin-top: -9px;
+    text-align: left;
+    width: auto;
+}
+.price-booking .dropdown-toggle::after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #571433;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 53px;
+    margin-top: -15px;
+    vertical-align: middle;
+    width: 0;
+}
+.price-booking .bootstrap-select.btn-group .dropdown-menu {
+    box-sizing: border-box;
+    min-width: 165px;
+    z-index: 2000;
+}
+.price-booking input[type=checkbox].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.price-booking input[type=checkbox].with-font ~ label:before {
+    display: inline-block;
+    top: 4px;
+    content: url("../img/chk.png");
+    font-size: 1.2em;
+    color: #571433;
+    width: 1.4em;
+    margin-left: 0;
+    position: relative;
+    z-index: 1000;
+}
+.price-booking input[type=checkbox].with-font:checked ~ label:before {
+    content: url("../img/chkactive.png");
+    font-size: 1.2em;
+    color: #571433;
+    top: 4px;
+    width: 1.4em;
+}
+.price-booking form {
+    float: left;
+    max-width: 353px;
+    display: inline;
+    overflow: hidden;
+}
+.price-booking input[type=checkbox].with-font:focus ~ label:before,
+.price-booking input[type=checkbox].with-font:focus ~ label {
+    color: #571433;
+}
+.price-booking .radio-option {
+    display: block;
+    margin-bottom: -10px;
+    width: 100%;
+    border-top: 1px solid #7f7f7f;
+}
+.price-booking .radio-option:last-child {
+    border-top: none;
+}
+.price-booking .radio-option label {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 14px;
+    position: relative;
+    text-align: left;
+    top: -15px;
+}
+.pop-show {
+    background: #fff none repeat scroll 0 0;
+    padding: 0 5px;
+    position: relative;
+    top: -15px;
+    left: -5px;
+}
+.pop-show i {
+    color: #571433;
+    font-size: 14px;
+}
+.popover {
+    background: #672b47 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    left: 180px !important;
+    max-width: 300px !important;
+    padding: 5px;
+    width: 100%;
+}
+.popover-title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    font-family: Gotham Bold;
+    font-size: 11px;
+    margin-bottom: -6px;
+    margin-left: 8px;
+    margin-top: 8px;
+    padding: 0;
+    text-transform: uppercase
+}
+.popover-content {
+    background: none;
+    border: 0;
+    padding: 10px;
+    font-family: Gotham Book;
+    text-transform: capitalize;
+    font-size: 10px;
+    line-height: 12px;
+}
+.popover.bs-tether-element-attached-bottom::before,
+.popover.popover-top::before {
+    border: medium none;
+    bottom: 10px;
+    content: url("../img/before.jpg");
+    margin-left: -166px;
+}
+.popover.bs-tether-element-attached-bottom::after,
+.popover.popover-top::after {
+    border: none;
+    bottom: -10px;
+    margin-left: -157px;
+}
+.p-rice {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    float: right;
+    font-family: Gotham Book;
+    font-size: 13px;
+    line-height: 28px;
+    padding-left: 7px;
+    position: relative;
+    text-align: right;
+    text-transform: capitalize;
+    top: -17px;
+}
+.chk-boxex {
+    padding-top: 7px;
+}
+.calcuate-total {
+    float: right;
+    max-width: 185px;
+    width: 100%;
+}
+.summary-total {
+    border: 1px solid #571433;
+    width: 100%;
+    display: block;
+}
+.each-price-t {
+    display: block;
+    margin-bottom: 37px;
+}
+.calcuate-total h4 {
+    color: #000;
+    display: block;
+    font-family: Gotham Bold;
+    font-size: 17.4px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.calcuate-total p {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 13.4px;
+    line-height: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-shadow: 0.2px 0 #444444;
+    text-align: left;
+    text-transform: capitalize;
+}
+.final-total {
+    margin-left: 15px;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+.final-total h5 {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 13.4px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.final-total span {
+    color: #000;
+    font-family: Gotham Bold;
+    font-size: 15.4px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.book-btn {
+    background: #571433 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: Gotham Bold;
+    font-size: 17px;
+    margin-top: 12px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.book-btn:hover {
+     background: #bc085b;
+    color: #fff;
+}
+.summary-last {
+    margin-top: 30px;
+    display: block;
+}
+.summary-last span {
+    color: #000;
+    display: block;
+    font-family: Gotham Book;
+    font-size: 12.2px;
+    line-height: 18px;
+    margin-top: 7px;
+}
+.combine-form .bootstrap-select .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.ng-value {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 13.4px;
+    line-height: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: left;
+    text-shadow: 0.2px 0 #444444;
+    text-transform: capitalize;
+}
+.ng-value-multi {
+    color: #000;
+    font-family: Gotham Book;
+    font-size: 13.4px;
+    line-height: 19px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: left;
+    text-shadow: 0.2px 0 #444444;
+    text-transform: capitalize;
+}
+.sel-box {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 162px;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 13px;
+    background: #fff url("../img/arrow.png") no-repeat 100% 50%;
+}
+.sel-box select {
+    padding: 2px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.sel-box select option {
+    border: none!important;
+    background: transparent;
+    outline: none;
+}
+.select-style select:focus {
+    outline: none;
+}
+ 
+.show-box .form-group .select-custom{
+      background: #f0f0f0 url(../img/bottom.png) no-repeat scroll 94% 50%;
+    width: 103%;
+    text-align-last:center !important;
+    text-align: center !important;
+    
+}
+.select-custom select {
+    -moz-appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: medium none;
+    box-shadow: none;
+    padding: 13.5px 0;
+      color: #571433;
+    font-size: 10.7pt;
+    text-align: center;
+    font-family: Gotham Bold;
+    width: 100%;
+    display: block;
+}
+ .select-custom select option {
+    border: none!important;
+    background: transparent !important;
+    outline: none;
+}
+.select-custom select:focus {
+    outline: none;
+}
+
+ 
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+ 
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+    float: right;
+    height: 34px;
+    left: -12px;
+    margin-top: -42px;
+    position: relative;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

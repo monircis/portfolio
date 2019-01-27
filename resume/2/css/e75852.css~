@@ -1,0 +1,63 @@
+.badge{
+    background: none repeat scroll 0 0 #e75852;
+}
+.single_language > ul > li > i{
+    color: #e75852;
+}
+.progress-bar {
+    background-color: #e75852;
+}
+.one span:after {
+    border-bottom: 1px solid #e75852;
+}
+.title > h1{
+    color: #e75852;
+}
+.user_info > h1{
+    color: #e75852;
+}
+.user_info > h2{
+    color: #e75852;
+}
+.sub__text > span > i{
+    color: #e75852;
+    padding-right: 4px;
+}
+.single_contact > p > i {
+    background: #e75852 none repeat scroll 0% 0%;
+}
+.single_refer > p >i{
+    color: #e75852;
+}
+.sub__text > h5 > i{
+    color: #e75852;
+}
+.user_img > img{
+    border: 2px solid #e75852;
+}
+.title > i{
+    color: #e75852;
+}
+.user_name > h1{
+    color: #e75852;
+}
+.user_name > p > i{
+    color: #e75852;
+    border: 1px solid #e75852;
+}
+.user_info  > p > i{
+    color:#e75852 ;
+}
+.title > h1{
+    border-bottom: 1px solid #e75852;
+}
+.sub__text{
+    border-left: 1px solid #e75852 ;
+}
+.sub__text > i{
+    color: #e75852;
+}
+.skills > i{
+    color: #e75852;
+}
+ 

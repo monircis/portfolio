@@ -1,0 +1,66 @@
+       /*.login-page{
+        background: url(vendors/img/bg-01.jpg) no-repeat center  ;
+       }
+       */
+       
+.container-login::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../../vendors/img/img-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+       
+       
+.container-login {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #0250c5;
+  background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+  background: -o-linear-gradient(bottom, #0250c5, #d43f8d);
+  background: -moz-linear-gradient(bottom, #0250c5, #d43f8d);
+  background: linear-gradient(bottom, #0250c5, #d43f8d);
+  position: relative;
+  z-index: 1;
+}
+.login-page .card{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.4);
+    max-width: 330px;
+    margin: auto;
+}
+.login-page .wel-msg{
+   font-weight: bold;
+font-family: "Segoe UI";
+text-shadow: 0px -3px 0px #20a8d8;
+margin:  20px 0 20px 0;
+}
+.login-page .cm-logo{
+    max-width: 80px;
+}
+.login-page .input-group-btn, .input-group .form-control{
+    border-radius: 0px 3px 3px 0px;
+} 
+.login-page .btn-primary{
+     border-radius: 3px;
+}

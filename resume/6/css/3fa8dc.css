@@ -1,0 +1,37 @@
+ 
+.top1{
+    background-color: #3fa8dc;
+}
+.user_name  > p{
+    color: #3fa8dc;
+}
+.icon_add > i {
+    background: #3fa8dc none repeat scroll 0% 0%;
+}
+.badge{
+    background: none repeat scroll 0 0 #3fa8dc;
+
+}
+.single_language > ul > li > i{
+    color: #3fa8dc;
+}
+.progress-bar-danger {
+    background-color: #3fa8dc;
+}
+.year > p {
+    background: #3fa8dc none repeat scroll 0% 0%;
+}
+.single_refer > p > i{
+   
+    color: #3fa8dc;
+   
+}
+.sub__text > h5 > i{
+   
+    color: #3fa8dc;
+   
+}
+.sub__text > h4 > i{
+    color: #3fa8dc;
+}
+ 

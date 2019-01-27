@@ -1,0 +1,51 @@
+.badge{
+    background: none repeat scroll 0 0 #D4232B;
+}
+.single_language > ul > li > i{
+    color: #D4232B;
+}
+.progress-bar {
+    background-color: #D4232B;
+}
+.title > h1 > span > i {
+    background: #D4232B none repeat scroll 0% 0%;
+}
+.title > h1{
+    color: #D4232B;
+}
+.user_info > h1{
+    color: #D4232B;
+}
+.user_info > h2{
+    color: #D4232B;
+}
+.sub__text > span > i{
+    color: #D4232B;
+    padding-right: 4px;
+}
+.single_contact > p > i {
+    color: #D4232B;
+}
+.single_refer > p >i{
+    color: #D4232B;
+}
+.sub__text > h5 > i{
+    color: #D4232B;
+}
+.user_img > img{
+    border: 2px solid #D4232B;
+}
+.title > i{
+    color: #D4232B;
+}
+.user_name > h1{
+    color: #D4232B;
+}
+.user_name > p > i{
+    color: #D4232B;
+    border: 1px solid #D4232B;
+}
+.user_info  > p > i{
+    color:#D4232B ;
+}
+

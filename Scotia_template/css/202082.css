@@ -1,0 +1,59 @@
+/*color code*/
+.one span::after {
+    border-bottom: 1px solid #202082;
+}
+.top1 {
+    background-color: #100e54;
+}
+.user_name  > p{
+    color: #202082;
+}
+.icon_add > i {
+    background: #202082 none repeat scroll 0% 0%;
+}
+.badge{
+    background: none repeat scroll 0 0 #202082;
+}
+.single_language > ul > li > i{
+    color: #202082;
+}
+.progress-bar{
+    background-color: #202082;
+}
+.refar_box > p > i{
+    color: #202082;
+}
+.sub__text > h5 > i{
+    color: #202082;
+}
+.sub__text > h4 > i{
+    color: #202082;
+}
+.pro > h1 {
+    color: #000;
+}
+.pro > h1:before,
+.pro > h1:after {
+    border-bottom: 1px solid #202082;
+}
+.text > h1 {
+    color: #202082;
+}
+.css-shapes-preview {
+    background-color: #202082;
+}
+.single_address > h2{
+    color: #202082;
+}
+.b1{
+    border-bottom: 1px solid #474576;
+}
+.b2{
+    border-bottom: 1px solid #fff;
+}
+.b3{
+    border-bottom: 1px solid #9999b5;
+}
+.b4{
+    border-bottom: 1px solid #000139;
+}

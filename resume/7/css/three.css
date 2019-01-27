@@ -1,0 +1,60 @@
+body{width: 100%;background: #eee; outline: none;font-family: Lato; } 
+a,a:hover,a:visited{outline: none !important;clear: both;  }
+a{clear: both;outline: none;} 
+h1,h2,h3,h4,h5,h6{font-family: Lato;}
+.brdr{border: 1px solid red;}
+p{font-size: 15px;font-family: Lato;}
+span{font-size: 14px;}
+   .no-pd{padding: 0px;}                
+.max-width {max-width: 1000px;  background: #fff;}   
+.tp-fa{font-size: 27px;}
+.sc-icon span{line-height: 27px;}
+.sc-icon{color: #fff;}
+.bg-black{background: #000; padding-bottom: 15px;margin-top: 10px;border-radius: 2px;
+    padding-top: 15px;}
+    .bg-blue{background: #428484; padding-bottom: 15px;margin-top: 10px;border-radius: 2px;
+    padding-top: 15px;}
+    .col-blue{color: #428484 !important;}
+.my-pic img{border: 1px solid #eee;margin-top: 15px;}
+.my-name{margin-top: 9px;}
+.my-name small{ color: #000;}
+.obj{text-align: justify;}
+.sec-name{border-bottom: 1px solid #666;padding-bottom: 10px;}
+.tt-one{font-size: 18px;   margin-bottom: 4px;
+    margin-top: 4px;}
+.tt-two{font-size: 16px;   margin-bottom: 4px;
+    margin-top: 4px;}
+.tt-three{font-size: 14px;   margin-bottom: 4px;
+    margin-top: 4px;}
+.tt-btm{font-size: 13px;   margin-bottom: 4px;
+    margin-top: 4px;}
+.tt-para{font-size: 13px;text-align: justify;}
+
+.tt-city {
+    font-size: 13px;
+    margin-bottom: 11px;
+    margin-top: 4px;
+}
+ 
+.tt-yr,.tt-scr{
+     font-size: 13px;
+    margin-bottom: 19px;
+    margin-top: 4px;
+    
+}
+.tt-num,.tt-email{
+     font-size: 13px;
+    margin-bottom: 1px;
+    margin-top: 4px;
+    
+}
+
+
+
+
+
+
+
+
+
+

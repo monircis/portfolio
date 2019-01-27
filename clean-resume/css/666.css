@@ -1,0 +1,79 @@
+/*
+------------------------------------
+- Color css for- #f1aes4
+------------------------------------
+*/
+
+a:hover {
+    color: #666;
+}
+.shape-line-one {
+    border-bottom: 1px solid #666;
+}
+.shape-line-two {
+    border-bottom: 1px solid #fff;
+}
+.shape-line-three {
+    border-bottom: 1px solid #666;
+}
+.shape-line-four {
+    border-bottom: 1px solid #666;
+}
+.one span::after {
+    border-bottom: 1px solid #666;
+}
+.top-photo {
+    background-color: #666;
+}
+.user-name > p {
+    color: #666;
+}
+.icon_add > i {
+    background: #666 none repeat scroll 0% 0%;
+}
+.badge {
+    background: none repeat scroll 0 0 #666;
+}
+.single-language > ul > li > i {
+    color: #666;
+}
+.progress-bar {
+    background-color: #666;
+}
+.single-box > p > i {
+    color: #666;
+}
+.sub-section > h5 > i {
+    color: #666;
+}
+.sub-section > h4 > i {
+    color: #666;
+}
+.pro > h1 {
+    color: #000;
+}
+.pro > h1:before,
+.pro > h1:after {
+    border-bottom: 3px dotted #666;
+}
+.text > h1 {
+    color: #666;
+}
+.css-shapes-preview {
+    background-color: #666;
+}
+.info-box > h2 {
+    color: #666;
+}
+.btn-interest,
+.btn-interest:hover,
+.btn-interest:focus {
+    background-color: #666;
+    color: #fff;
+    outline: none;
+    box-shadow: 0 1px 2px #666;
+    cursor: default;
+}
+.single-language >h2 i {
+    color: #666;
+}

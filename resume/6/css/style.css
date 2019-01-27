@@ -1,0 +1,319 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+background:#ededed;
+   
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+    margin-top: 0px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+}
+.container {
+    max-width: 1050px !important;
+    background: #FFF none repeat scroll 0% 0%;
+    padding:0;
+    margin-top: 128px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.fix{
+    overflow: hidden;
+}
+.no-padding{
+    padding:0;
+   }
+
+.top2{
+    background-color: #000;
+    padding: 20px 0px;
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+}
+.user_img > img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.user_name{
+    padding-top: 20px;
+}
+.user_name > h1{
+    color: #ffffff;
+}
+
+.adress {
+    padding-bottom: 40px;
+}
+
+.icon_add > p {
+    float: left;
+}
+.skills_area{
+    clear: both;
+}
+.padding_off{
+    padding-left: 0px;
+}
+.name_ti{
+    margin-top: 0px;
+}
+.single_language > ul > li{
+    list-style-type: none;
+    float: left;
+    padding-right: 4px;
+}
+.single_language > ul{
+    padding-top: 0px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.sub__text > h3{
+    margin-bottom: 5px;
+}
+.sub__text > h5{
+    margin-top: 0px;
+}
+.ti_lagn{
+    padding-right: 5px;
+    width: 77px;
+}
+.references{
+    clear: both;
+}
+.text_email{
+    padding-top: 8px; 
+word-wrap: break-word;
+
+}
+.title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.sub__text > h2{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.sub__text{
+    margin-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+.single_refer{
+    margin-bottom: 20px;
+}
+.sr-only{position: relative;font-size: 14px;font-weight: 500;}
+
+.progress {
+    height: 17px;
+}
+
+.title_top{
+    text-align: center;
+}
+
+.title_top > h1 {
+    position: relative;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.title_top > h1.one {
+    margin-top: 0;
+
+}
+
+.title_top > h1.one:before {
+     content: "";
+     display: block;
+     border-top: solid 1px black;
+     width: 100%;
+     height: 1px;
+     position: absolute;
+     top: 50%;
+     z-index: 1;
+ }
+
+.title_top > h1.one span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+    text-transform: uppercase;
+}
+.title{
+    text-align: center;
+}
+
+.title > h1 {
+    position: relative;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.title > h1.one {
+    margin-top: 0;
+
+}
+
+.title > h1.one:before {
+    content: "";
+    display: block;
+    border-top: solid 1px black;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.title > h1.one span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+    text-transform: uppercase;
+}
+.objective{
+    padding-top: 30px;
+}
+.hobbi{
+    overflow: hidden;
+}
+.fix{
+    overflow: hidden;
+}
+/*color code*/
+.top1{
+    height: 35px;
+    padding-top: 10px;
+}
+.user_name  > p{
+    margin-top: 0px;
+}
+.icon_add > i {
+    border-radius: 50%;
+    color: #FFF;
+    padding: 10px 12px 11px 12px;
+    font-size: 20px;
+    margin-right: 6px;
+    float: left;
+}
+.badge{
+     color: #fff;
+    float: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 7px 9px;
+}
+ 
+.single_language{
+    padding-top: 20px;
+}
+
+.year > p {
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.single_refer > p > i{
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.sub__text > h5 > i{
+    font-size: 15px;
+    padding-right: 8px;
+}
+.sub__text > h3{
+    margin-top: 0px;
+}
+.sub__text > p{
+    padding-top: 10px;
+}
+.adress {text-transform: lowercase;}
+
+/*responsive css*/
+@media (max-width: 980px) {
+    .adress {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 800px) {
+    .adress {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 735px) {
+    .user_img,.user_name h1,.user_name p{text-align:center;}
+    }
+@media (max-width: 360px) {
+    .user_img{
+        padding-left: 43px;
+    }
+    .user_name{
+        text-align: center;
+    }
+    .adress{
+        padding-left: 20px;
+    }
+    .text_email{
+        padding-bottom: 10px;
+    }
+    .user_name > p{
+        text-align: center;
+    }
+    .top2{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .user_img{
+        padding-left: 25px;
+    }
+    .user_name{
+        text-align: center;
+    }
+    .adress{
+        padding-left: 20px;
+    }
+    .text_email{
+        padding-bottom: 10px;
+    }
+    .user_name > p{
+        text-align: center;
+    }
+    .top2{
+        margin-bottom: 20px;
+    }
+
+}

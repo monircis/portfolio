@@ -1,0 +1,299 @@
+
+.header-top-banner{
+	background-image: url(../img/details-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 270px;
+	position: relative;
+}
+.header-top-banner:after{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #000;
+	opacity: .63;
+}
+.banner-text {
+	position: absolute;
+	top: 140px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.banner-text h2 {
+	color: #fff;
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 54px;
+	z-index: 1111;
+	position: relative;
+	font-weight: lighter;
+}
+.booking{
+	width: 100%;
+}
+.seclect_item{
+	width: 20%;
+	float: left;
+}
+
+.booking {
+	background-color: #1ca188;
+	overflow: hidden;
+	padding: 50px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.btn-select {
+	position: relative;
+	padding: 0;
+	min-width: 190px;
+	border-radius: 0;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+.btn-select .btn-select-value {
+    padding: 6px 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 34px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+.btn-select .btn-select-arrow {
+    float: right;
+    line-height: 20px;
+    padding: 6px 10px;
+    top: 0;
+}
+
+.btn-select ul {
+    display: none;
+    background-color: white;
+    color: black;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: none !important;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 33px;
+    z-index: 999;
+}
+
+.btn-select ul li {
+    padding: 3px 6px;
+    text-align: left;
+}
+
+.btn-select ul li:hover {
+    background-color: #fff;
+}
+
+.btn-select ul li.selected {
+    color: white;
+}
+
+/* Default Start */
+.btn-select.btn-default:hover, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.btn-select.btn-default ul li.selected {
+    background-color: #ccc;
+}
+
+.btn-select.btn-default ul, .btn-select.btn-default .btn-select-value {
+    background-color: white;
+    border: #ccc 0px solid;
+}
+
+.btn-select.btn-default:hover, .btn-select.btn-default.active {
+    background-color: #fff;
+}
+.btn_booking {
+	background-color: #c0392b;
+	border: 0px solid;
+	padding: 6px 30px !important;
+	margin-top: 36px;
+	margin-left: 20px;
+	transition: .3s;
+}
+.btn_booking:hover{
+	background-color: #fff;
+	color: #c0392b;
+}
+.seclect_item p {
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.seclect_item input {
+	padding: 3px;
+}
+.seclect_item h5 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.padding-off {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.padding-left-off{
+	padding-left: 0px;
+}
+.location_image img {
+	width: 100%;
+	margin-top: 125px;
+	height: auto;
+	margin-bottom: 50px;
+}
+.img-section,.booking_now_section,.location_information{
+	background-color: #fff;
+}
+.location_information {
+	padding-top: 100px;
+	overflow: hidden;
+}
+.location-info h3 {
+	font-size: 31px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.location-info ul{
+	margin-bottom: 40px;
+}
+.location-info ul li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.info-text p {
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.red-color{
+	color: #d91616;
+}
+.destination {
+	font-size: 14px;
+	margin-bottom: 80px;
+}
+.destination table tbody tr td {
+	padding: 10px 0;
+}
+.margin_left_50 {
+	padding-left: 50px !important;
+}
+.include i {
+	color: #4ac009;
+	padding-left: 10px;
+	padding-right: 6px;
+	font-weight: bold;
+}
+.tour_plan h3 {
+	font-size: 24px;
+	padding-bottom: 45px;
+	color: #000;
+}
+.day h4 {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.day p {
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.day p i {
+	color: #4ac009;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.day {
+	padding-bottom: 60px;
+}
+.gallary h3 {
+	margin-bottom: 40px;
+}
+.gallari-item img {
+	float: left;
+	width: 48%;
+	margin-left: 9px;
+	margin-bottom: 9px;
+}
+.gallari-item {
+	margin-left: -9px;
+}
+.gallari-item {
+	margin-left: -9px;
+	padding-bottom: 115px;
+	overflow: hidden;
+}
+.publisher {
+	background-color: #dee0e1;
+	padding-top: 20px;
+	box-shadow: 0px 5px 5px #888888;
+}
+.publisher h3 {
+	font-weight: 600;
+}
+.publisher img {
+	margin: 0 auto;
+	display: block;
+}
+
+.star-point li {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.star-point li i {
+	color: #e6d300;
+	font-size: 20px;
+}
+.star-point {
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+}
+.publisher p {
+	text-align: center;
+	font-size: 21px;
+	padding-top: 20px;
+}
+.travel-table{
+	padding: 40px 60px;
+}
+.travel-table table tbody tr td {
+	padding: 5px;
+	font-size: 18px;
+}
+
+
+
+
+
+

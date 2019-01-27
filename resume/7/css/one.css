@@ -1,0 +1,54 @@
+body{width: 100%;background: #eee; outline: none;font-family: 'open sans';color: #000; } 
+a,a:hover,a:visited{outline: none !important;clear: both;  }
+a{clear: both;outline: none;} 
+h1,h2,h3,h4,h5,h6{font-family:'open sans';color: #000;}
+.brdr{border: 1px solid red;}
+p{font-size: 15px;font-family: 'open sans';}
+span{font-size: 14px;}
+.no-pd{padding: 0px;}                
+.max-width {max-width: 980px;  background: #eec402 ;}   
+.bg-with-left{ background-color: #fff;margin-left: 50px; padding-left: 55px;padding-top: 10px;overflow: hidden;}
+.objective-box{overflow: hidden;margin-right: 15px;  border-bottom: 1px solid #e6e3e1;padding-bottom: 20px; }
+.main-title{font-size:17px;font-weight: bold;margin-top: 0px;}
+.main-title i{background-color: #eec402;border-radius: 50%;height: 35px;font-size: 22px ;font-weight: normal;line-height: 34px;color: #fff;text-align: center;width: 35px;}
+.info-box{text-align: justify;font-size: 14px;padding: 0px;margin: 0px;overflow: hidden;}
+.border-box{border: 2px solid #eec402;}
+.u-name{text-align:  center;font-size: 18px;text-transform: uppercase;font-weight: bold;margin-bottom: 0px;}
+.designation{text-align: center; display: block;font-size: 14px;font-weight: bold;color: #eec402;}
+.brder-btm{padding-bottom: 25px;}
+.main-contact{display: block;overflow: hidden;margin-bottom: 6px;}
+.main-contact i{background-color: #eec402;border-radius: 50%;color: #fff;font-size: 18px;font-weight: normal;height: 30px;line-height: 31px;text-align: center;width: 30px;}
+.main-contact span{font-size: 14px;line-height: 28px; width: 85%; color: #a6a29f;}
+.full-section{ margin-right: 15px;overflow: hidden;margin-top: 25px;}
+.small-box{ overflow: hidden;width: 100%;}
+.small-box i{ color: #eec402;font-size: 22px;left: 0;margin-left: 8px;position: absolute;}
+.each-info-box{border-left: 1px solid #eec402; margin-left: 17px;   margin-top: 19px;  width: 100%;}
+ .ex-info{  margin-top: -16px;  width: 100%;overflow: visible;}
+.date-show{  background: none repeat scroll 0 0 #a6a5a3;border-radius: 5px;display: inline;float: left;font-weight: bold;margin-left: 8px;margin-left: 24px;
+min-height: 30px;color: #fff;min-width: 80px;padding: 5px 5px 5px 7px;text-align: center;}
+.ex-info-box{overflow-x: hidden; width: 83%;margin-left: 20px;padding-bottom: 23px;}
+.ex-info-box-full{overflow-x: hidden; width: 90%;margin-left: 20px;}
+.ex-name{ font-size: 18px;width: 100%;overflow: hidden;font-weight: normal;color: #eec402;   margin: 0;}
+.ex-title{ font-size: 14px;display: block;width: 100%;overflow: hidden;}
+.from-to,.ex-location,.ex-country{font-size: 13px;}
+.from-to{display: block;}
+.ex-location,.ex-country,.ex-year,.ex-score{width: 50%;}
+.ex-description{padding: 0px;margin-top: 30px;margin-bottom: 0px;    color: #a6a29f;font-size: 13px;text-align: justify;}
+.last-info{padding-bottom: 0px!important;}
+.mg-tp-btm{margin-bottom: 25px;}
+.skill-name{ color: #eec402;font-size: 18px;font-weight: normal;margin: 0;overflow: hidden; padding-bottom: 10px;}
+.skill-rate{margin-top: 6px;margin-right: 20px;}
+.hobies{text-align: justify; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+

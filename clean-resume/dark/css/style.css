@@ -1,0 +1,644 @@
+/* 
+Table of contents
+========================================
+- Main color: #dbc96c;
+- General Style
+- skills Style
+- Language Style
+- References Style
+- Education style
+- Portfolio styke
+- animate custom css
+========================================
+*/
+/*
+----------------------------------
+- General Style
+----------------------------------
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 17px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 16px;
+}
+h4 {
+    font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+body{
+    background: #181c37;
+    color: #fff;
+}
+body .container {
+    max-width: 1000px;
+    background: #181c37 none repeat scroll 0% 0%;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.fix {
+    overflow: hidden;
+}
+.no-padding {
+    padding-left: 0px;
+}
+.no-padding-left {
+    padding-left: 0;
+}
+.no-padding-right {
+    padding-right: 0;
+}
+.user-photo img {
+    border-radius: 7px;
+    box-shadow: 0 0 7px #fff;
+    max-width: 190px;
+    transform: rotateZ(51deg);
+}
+.user-designation {
+    margin-top: 0px;
+}
+/*
+------------------------------------
+- skills section Style
+------------------------------------
+*/
+
+.skills-area-box {
+    clear: both;
+}
+.sub-section > h5 > i {
+    font-size: 18px;
+}
+.padding-off {
+    padding-left: 0px;
+}
+/*
+------------------------------------
+- Language section Style
+------------------------------------
+*/
+
+.single-language {
+    padding-top: 20px;
+    overflow: hidden;
+}
+.single-language > ul {
+    padding-top: 0px;
+}
+.language >.left-lan>.single-language>ul>li {
+    list-style-type: none;
+    float: left;
+    padding-right: 4px;
+}
+.language >.right-lan>.single-language>ul>li {
+    list-style-type: none;
+    float: right;
+    padding-right: 4px;
+}
+.language >.right-lan>.single-language>ul>li.skill-type {
+    margin: 0 0 0 10px;
+    text-align: right;
+}
+.language >.right-lan>.single-language>h2 {
+    text-align: right;
+}
+.language >.right-lan>.single-language>h2 i {
+    float: right;
+    margin-left: 5px;
+}
+.sub-section > h3 {
+    margin-bottom: 5px;
+}
+.sub-section > h5 {
+    margin: 0px;
+    line-height: 20px;
+}
+.skill-type {
+    margin-right: 10px;
+    width: 65px;
+}
+/*
+------------------------------------
+- References section Style
+------------------------------------
+*/
+
+.references {
+    clear: both;
+}
+.text_email {
+    padding-top: 8px;
+}
+.title {
+    margin-top: 40px;
+    clear: both;
+    display: block;
+}
+.sub-section > h2 {
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.clr {
+    clear: both;
+}
+.single-box {
+    margin-bottom: 20px;
+}
+.progress-bar {
+    border-radius: 4px;
+}
+.progress {
+    height: 13px;
+    margin-bottom: 0px;
+    overflow: visible;
+    margin-top: 7px;
+}
+.one {
+    line-height: 0.5;
+    text-align: left;
+}
+.one span {
+    display: inline-block;
+    position: relative;
+    font-family: "Tangerine", cursive;
+    text-transform: none;
+    font-size: 45px;
+}
+.one span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 776px;
+}
+.one span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.title > h1 > span > i {
+    color: #FFF;
+    font-size: 29px;
+    margin-left: -42px;
+    padding-right: 30px;
+}
+.title > h1 > span > i.fa-suitcase {
+    float: left;
+    font-size: 26px;
+    margin-left: -33px;
+    margin-top: -7px;
+    padding-right: 24px;
+}
+.title > h1 > span > i.fa-heartbeat {
+    float: left;
+    font-size: 30px;
+    margin-left: -35px;
+    margin-top: -4px;
+    padding-right: 24px;
+}
+.title > h1 > span > i.fa-wrench {
+    float: left;
+    font-size: 27px;
+    margin-left: -31px;
+    margin-top: -7px;
+    padding-right: 24px;
+}
+.title > h1 > span > i.fa-language {
+    float: left;
+    font-size: 27px;
+    margin-left: -32px;
+    margin-top: -6px;
+    padding-right: 27px;
+}
+.title > h1 > span > i.fa-user-plus {
+    float: left;
+    font-size: 27px;
+    margin-left: -33px;
+    margin-top: -8px;
+    padding-right: 20px;
+}
+.title > h1 > span > i.fa-certificate {
+    float: left;
+    font-size: 27px;
+    margin-left: -31px;
+    margin-top: -5px;
+    padding-right: 24px;
+}
+.title > h1 > span > .fa.fa-laptop {
+    float: left;
+    margin-left: -35px;
+    margin-top: -7px;
+    padding-right: 23px;
+}
+.title > h1 > span > .fa.fa-trophy {
+    float: left;
+    margin-left: -33px;
+    margin-top: -5px;
+    padding-right: 23px;
+}
+/*
+------------------------------------
+- Education section Style
+------------------------------------
+*/
+
+.education-title > h1 > span > i {
+    float: left;
+    font-size: 25px;
+    margin-left: -36px;
+    margin-top: -3px;
+    padding-right: 20px;
+}
+.title > i {
+    float: right;
+    margin-top: -23px;
+}
+.objective {
+    padding-top: 30px;
+}
+.hobbi {
+    overflow: hidden;
+}
+.fix {
+    overflow: hidden;
+}
+.sub-section > h4 {
+    margin: 0px;
+    line-height: 20px;
+}
+.sub-section > h3 {
+    margin-top: 0px;
+}
+.sub-section > p {
+    padding-top: 5px;
+}
+.user-name,
+.text {
+    text-align: center;
+    margin-top: 35px;
+}
+.user-name {
+    margin-top: -175px;
+}
+.text > h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: 'Tangerine', cursive;
+}
+.text > h3 {
+    font-family: "Tangerine", cursive;
+    font-size: 30px;
+    margin: -9px -9px 12px;
+}
+.info-box {
+    text-align: center;
+    
+    padding: 5px;
+}
+.info-box > h2 {
+    font-family: "Tangerine", cursive;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.info-box > p {
+    text-align: center;
+}
+.address {
+    padding: 0px 15px;
+}
+.pro > h1 {
+    font-family: "Tangerine", cursive;
+    text-transform: none;
+    font-size: 40px;
+}
+.padding-off {
+    padding: 0px;
+}
+.bottom-space {
+    padding: 15px 15px 40px;
+    overflow: hidden;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.css-shapes-preview {
+    border-radius: 5px;
+    float: left;
+    height: 40px;
+    margin-left: 11px;
+    margin-top: -12px;
+    position: relative;
+    transform: rotate(45deg);
+    width: 40px;
+}
+.skills {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    overflow: visible;
+    width: 100%;
+}
+.user-designation {
+    margin: 0px;
+}
+.single-secsion-data,
+.hobbies,
+.top_gap {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.single-reference {
+    margin-top: 30px;
+}
+.language {
+    margin-top: 20px;
+}
+.pro > h1 {
+    display: inline-block;
+    position: relative;
+}
+.pro > h1:before,
+.pro > h1:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 18px;
+    width: 600px;
+}
+.pro {
+    padding-top: 20px;
+    overflow: hidden;
+    clear: both;
+}
+.pro {
+    line-height: 0.5;
+    text-align: center;
+}
+.pro h1:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.pro h1:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.year > p {
+    font-family: "Tangerine", cursive;
+    font-size: 30px;
+}
+.single-box > h3 {
+    margin: 0px;
+}
+.top-photo {
+    height: 180px;
+    padding-top: 10px;
+}
+.sub-section > h4 > i {
+    padding-right: 5px;
+}
+.sub-section > h5 > i {
+    padding-right: 5px;
+}
+.single-box > p > i {
+    padding-right: 5px;
+}
+.user-name > p {
+    margin-top: 0px;
+}
+.btn-social.btn-xs > *:first-child {
+    font-size: 1.2em;
+    line-height: 20px;
+    width: 20px;
+}
+.hobbies button {
+    margin-bottom: 5px;
+}
+.progress-bar {
+    font-weight: 600;
+    font-family: "Tangerine", cursive;
+    font-size: 21px;
+}
+.progress {
+    box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.1) inset;
+}
+.progress-percent {
+    background-color: #313131;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 0 8px;
+    position: relative;
+    float: right;
+    top: -21px;
+}
+.progress-percent::before {
+    border-right: 8px solid transparent;
+    border-top: 6px solid #313131;
+    bottom: -4px;
+    content: "";
+    right: 0;
+    position: absolute;
+}
+.btn-interest {
+    font-size: 13px;
+    border: none;
+}
+.single-box > h4 {
+    margin-top: -8px;
+}
+/*
+------------------------------------
+- Portfolio section Style
+------------------------------------
+*/
+
+.portfolio {
+    max-width: 98.4%;
+}
+.portfolio h4 i,
+.portfolio h5 i {
+    font-size: 13px;
+}
+.portfolio h5 {
+    font-size: 13px;
+}
+.portfolio .css-shapes-preview {
+    margin-left: 26px;
+}
+ 
+.right-ref .single-box {
+    text-align: right;
+}
+.right-ref p {
+    float: right;
+}
+.right-ref p i {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+}
+.custom-padding-left {
+    padding-right: 8px;
+}
+/*animation custom css*/
+
+.delay {
+    -webkit-animation-duration: 2s;
+}
+.delay-1 {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+}
+
+
+
+ 
+ 
+ 
+ /* ===== Theme Options ===== */
+.options {
+  position: fixed;
+  top: 35%;
+  left: 0;
+  z-index: 999999;
+}
+.options__trigger {
+   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 36px;
+    left: 0;
+    line-height: 35px;
+    padding-right: 3px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 36px;
+    z-index: 999998;
+}
+.options__trigger:hover,
+.options__trigger:focus {
+  background: rgba(0,0,0,.8);
+}
+.options__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  padding: 10px;
+  border-radius: 0 4px 4px 0;
+  background: white;
+  text-align: center;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.175);
+  z-index: 999998;
+}
+.options-box__title {
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.options-box__title__close {
+  cursor:  pointer;
+}
+.options-box__color-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.options-box__color-list > li a{
+ 
+    border-radius: 4px;
+    color: white;
+    display: inline;
+    float: left;
+    font-size: 13px;
+    height: 31px;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    padding: 3px;
+    width: 31px;
+}
+.options-box__color-list.style > li a{
+     line-height: 23px;
+    width: 100%;
+}
+.options-box__color-list > li.default a{
+ background: #ff5252;
+}
+.options-box__color-list > li.second a{
+ background: #f1ae24;
+}
+.options-box__color-list > li.third a{
+ background: #417df7;
+}
+.options-box__color-list > li.fourth a{
+ background: #9a348e;
+}
+.options-box__color-list > li.fifth a{
+ background: #4caf50;
+}
+.options-box__color-list > li.sixth a{
+ background: #666;
+}
+.options-box__color-list > li.default.dark a{
+ background: #181c37;
+}
+ .options-box__color-list > li.default.light a{
+ background: #fff;
+ border: 1px solid #eee;
+ color: #000;
+}
+.options-box__color-list > li > a:hover {
+  color: white;
+  text-decoration: none;
+}
+ 
+.options-box__close {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* option color choose---*/

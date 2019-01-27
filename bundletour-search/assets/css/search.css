@@ -1,0 +1,224 @@
+.sreach_info {
+	height: 100%;
+	position: relative;
+	background: #fff;
+}
+.search_page_box{
+	position: inherit !important;
+
+}
+.search-area.search_page_box {
+	background: #f7f7f7 none repeat scroll 0 0;
+	border-radius: 10px;
+	box-shadow: 0 8px 8px #c0c0c0;
+	margin: 0 7px;
+	padding: 70px 15px 15px;
+	position: relative;
+	top: 0;
+	z-index: 1000;
+	margin-bottom: 0;
+}
+.header-top-banner{
+	background-image: url(../img/details-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 270px;
+	position: relative;
+}
+.header-top-banner:after{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #000;
+	opacity: .63;
+}
+.banner-text {
+	position: absolute;
+	top: 140px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.banner-text h2 {
+	color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 54px;
+	z-index: 1111;
+	position: relative;
+	font-weight: lighter;
+}
+.margin_top_50{
+	margin-top: 50px;
+}
+.search_result.latest {
+	background-color: #fff;
+	padding-top: 110px;
+}
+.search_title h2 {
+	 color: #000;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.search_title{
+	margin-bottom: 110px;
+}
+
+.thins_to_do {
+	background-color: #fff;
+	padding-top: 110px;
+}
+.single_do{
+	float: left;
+}
+.do_info h4 {
+	font-size: 18px;
+	color: #000;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.do_info p {
+	font-size: 14px;
+	color: #000;
+}
+.owl-dot {
+	background: none repeat scroll 0 0 #000;
+border-radius: 20px;
+display: block;
+height: 12px;
+margin: 5px 7px;
+opacity: 1;
+width: 12px;
+float: left;
+}
+.owl-dot.active{
+	background-color: #2fa284;
+}
+.single_do {
+	float: left;
+	margin-bottom: 50px;
+}
+.owl-dots {
+	width: 100%;
+	left: 45%;
+	position: relative;
+}
+.blog_area_item {
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+ 
+
+.no-padding{
+    padding: 5.5px;
+}
+.things-boxes .slide .item{
+    height: auto;
+    min-height: inherit;
+    overflow: hidden;
+   
+}
+.things-boxes .slide .item img{
+    position: relative;
+   
+}
+.things-boxes .slide .item::after
+{
+    background: transparent;
+    position: relative;
+}
+.things-boxes .carousel-control{
+    width: 9%;
+}
+.things-boxes .item::after{
+    position: relative !important;
+}
+ 
+.things-boxes .item img {
+    left:  auto;
+    min-height:  inherit !important;
+    position:  relative;
+    top:  auto;
+}
+.img-musk{overflow: hidden;}
+.musk-hover{
+     background: rgba(55, 168, 139, 0.8) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 18px;
+    text-align: center;
+   font-family: "Raleway";
+   font-weight: 400;
+    display: none;
+  
+}
+.musk-hover div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+     color: #fff;
+}
+.thing:hover .musk-hover{
+    display: block;
+}
+.think-summary h3{
+    text-transform: uppercase;
+     font-size: 18px;
+     font-family: "Raleway";
+   font-weight: 600;
+   margin-top: 22px;
+   color: #000000;
+}
+.think-summary p{
+     font-size: 14px;
+     font-family: "Raleway";
+   font-weight: 500;
+   color: #000000;
+}
+ .thins_to_do .no-pd .bs-slider{
+   padding: 1px;
+ }
+
+
+.thing-area-box {
+    background-color: #fff;
+    padding-top: 110px;
+    padding-bottom: 65px;
+    
+}
+ 
+
+.thing-area-box .carousel .item{
+    height: auto;
+ 
+}
+.thing-area-box .item  img{
+  height: auto !important;
+    min-height: inherit !important;
+    position: relative;
+}
+
+
+.thing-area-box  .item::after{
+    position: relative;
+}
+.single_feature_item.thing{
+    overflow: visible;
+}
+
+.thing-area-box  .indicators-line > .carousel-indicators{
+    bottom: -25%;
+}
+.blog_caption a:hover {
+    color: #34a88b;
+

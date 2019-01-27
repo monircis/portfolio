@@ -1,0 +1,65 @@
+.container {
+    background: #4D4D4F none repeat scroll 0% 0%;
+}
+.top_section {
+    background: #6E6F73;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #FFF;
+}
+p,span{
+    color: #FFF;
+}
+.single_language > ul > li {
+    color: #fff;
+}
+.badge{
+    background: none repeat scroll 0 0 #10AEDB;
+}
+.single_language > ul > li > i{
+    color: #10AEDB;
+}
+.progress-bar {
+    background-color: #10AEDB;
+}
+.title > h1 > span > i {
+    background: #10AEDB none repeat scroll 0% 0%;
+}
+.title > h1{
+    color: #10AEDB;
+}
+.user_info > h1{
+    color: #10AEDB;
+}
+.user_info > h2{
+    color: #10AEDB;
+}
+.sub__text > span > i{
+    color: #10AEDB;
+    padding-right: 4px;
+}
+.single_contact > p > i {
+    color:#10AEDB ;
+}
+.single_refer > p >i{
+    color: #10AEDB;
+}
+.sub__text > h5 > i{
+    color: #10AEDB;
+}
+.user_img > img{
+    border: 2px solid #10AEDB;
+}
+.title > i{
+    color: #10AEDB;
+}
+.user_name > h1{
+    color: #10AEDB;
+}
+.user_name > p > i{
+    color: #10AEDB;
+    border: 1px solid #10AEDB;
+}
+.user_info  > p > i{
+    color:#10AEDB ;
+}

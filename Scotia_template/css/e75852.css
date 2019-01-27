@@ -1,0 +1,60 @@
+
+/*color code*/
+.one span::after {
+    border-bottom: 1px solid #e75852;
+}
+.top1 {
+    background-color: #e75852;
+}
+.user_name  > p{
+    color: #e75852;
+}
+.icon_add > i {
+    background: #e75852 none repeat scroll 0% 0%;
+}
+.badge{
+    background: none repeat scroll 0 0 #e75852;
+}
+.single_language > ul > li > i{
+    color: #e75852;
+}
+.progress-bar{
+    background-color: #e75852;
+}
+.refar_box > p > i{
+    color: #e75852;
+}
+.sub__text > h5 > i{
+    color: #e75852;
+}
+.sub__text > h4 > i{
+    color: #e75852;
+}
+.pro > h1 {
+    color: #000;
+}
+.pro > h1:before,
+.pro > h1:after {
+    border-bottom: 1px solid #e75852;
+}
+.text > h1 {
+    color: #e75852;
+}
+.css-shapes-preview {
+    background-color: #e75852;
+}
+.single_address > h2{
+    color: #e75852;
+}
+.b1{
+    border-bottom: 1px solid #E0DEDE;
+}
+.b2{
+    border-bottom: 1px solid #fff;
+}
+.b3{
+    border-bottom: 1px solid #D6534F;
+}
+.b4{
+    border-bottom: 1px solid #F7635D;
+}

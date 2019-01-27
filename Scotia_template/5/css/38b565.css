@@ -1,0 +1,59 @@
+/*color code*/
+.one span::after {
+    border-bottom: 1px solid #38b565;
+}
+.top1 {
+    background-color: #38b565;
+}
+.user_name  > p{
+    color: #38b565;
+}
+.icon_add > i {
+    background: #38b565 none repeat scroll 0% 0%;
+}
+.badge{
+    background: none repeat scroll 0 0 #38b565;
+}
+.single_language > ul > li > i{
+    color: #38b565;
+}
+.progress-bar{
+    background-color: #38b565;
+}
+.refar_box > p > i{
+    color: #38b565;
+}
+.sub__text > h5 > i{
+    color: #38b565;
+}
+.sub__text > h4 > i{
+    color: #38b565;
+}
+.pro > h1 {
+    color: #000;
+}
+.pro > h1:before,
+.pro > h1:after {
+    border-bottom: 1px solid #38b565;
+}
+.text > h1 {
+    color: #38b565;
+}
+.css-shapes-preview {
+    background-color: #38b565;
+}
+.single_address > h2{
+    color: #38b565;
+}
+.b1{
+    border-bottom: 1px solid #E0DEDE;
+}
+.b2{
+    border-bottom: 1px solid #fff;
+}
+.b3{
+    border-bottom: 1px solid #64D68C;
+}
+.b4{
+    border-bottom: 1px solid #21A54F;
+}

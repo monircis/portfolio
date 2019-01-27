@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			BUNDLETOUR
+		</title>
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/search.css" rel="stylesheet">
+		<link href="assets/css/responsive.css" rel="stylesheet">
+        	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
+
+		<!-- Include Bootstrap Datepicker -->
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland&amp;subset=latin-ext" rel="stylesheet"/>
+	</head>
+	<body>
+		<header class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div id="topheader" class="container nav_position">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+										<span class="sr-only">
+											Toggle navigation
+										</span>
+										<span class="icon-bar">
+										</span>
+										<span class="icon-bar">
+										</span>
+										<span class="icon-bar">
+										</span>
+									</button>
+									<a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="BUNDLETOUR">
+									</a>
+								</div>
+								<div id="navbar5" class="navbar-collapse collapse">
+									<ul class="nav navbar-nav navbar-right">
+                                   
+										<li>
+											<a href="#">Home</a>
+										</li>
+										<li>
+											<a href="#">All Boundles</a>
+										</li>
+                                        	<li>
+											<a href="#">Blogs</a>
+										</li>
+                                        	
+										<li>
+											<a href="#">Sign up</a>
+										</li>
+										<li>
+											<a href="#">Sign in</a>
+										</li>
+                                         <li>
+											<a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+										</li>
+									</ul>
+								</div>
+								<!--/.nav-collapse -->
+							</div>
+							<!--/.container-fluid -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="header-top-banner">
+			<div class="banner-text">
+				<h2>
+					Travel far enough to meet yourself
+				</h2>
+			</div>
+		</section>
+		<section class="sreach_info">
+			<div class="container">
+				<div class="row">
+					<div class="search-area search_page_box">
+						<div class="row">
+							<div class="col-md-3 col-sm-3 col-xs-12">
+								<div class="search-element">
+											<h2>
+												What
+											</h2>
+											<div class="half">
+												<div class="radio">
+													<input type="radio" name="radio1" id="radio1" value="option1" checked=""/>
+													<label for="radio1">
+														Budget
+													</label>
+												</div>
+											
+												<div class="radio">
+													<input type="radio" name="radio1" id="radio3" value="option3" />
+													<label for="radio3">
+														Deluxe
+													</label>
+												</div>
+											</div>
+											<div class="half">
+												<div class="radio">
+													<input type="radio" name="radio1" id="radio2" value="option2" />
+													<label for="radio2">
+														Economic 
+													</label>
+												</div>
+												  
+											</div>
+										</div>
+							</div>
+							<!--end-->
+							<div class="col-md-3 col-sm-3 col-xs-12">
+								<div class="search-element">
+									<h2>
+										Where
+									</h2>
+									<label>
+										Your Destination
+									</label>
+									<div class="form-group">
+										<input type="text" class="form-control" />
+									</div>
+								</div>
+							</div>
+							<!--end-->
+							<div class="col-md-3 col-sm-3 col-xs-12">
+								<div class="search-element">
+									<h2>
+										From
+									</h2>
+									<label>
+										Your Boarding
+									</label>
+									<div class="form-group">
+										<input type="text" class="form-control" />
+									</div>
+								</div>
+							</div>
+							<!--end-->
+							<div class="col-md-3 col-sm-3 col-xs-12">
+								<div class="search-element from-to">
+									<h2>
+										When
+									</h2>
+									<div class="half">
+										<label>
+											From
+										</label>
+										<div class="form-group">
+											<div class="date">
+												<div class="input-group   date" id="datePicker">
+													<input type="text" class="form-control" name="date" />
+													<span class="input-group-addon add-on f-to">
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="half ">
+										<label>
+											To
+										</label>
+										<div class="form-group">
+											<div class="date">
+												<div class="input-group input-append date" id="to">
+													<input type="text" class="form-control" name="date" />
+													<span class="input-group-addon add-on f-to">
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--end-->
+							<span class="clearfix">
+							</span>
+                            <br /><br />
+							<div class="text-center">
+								<button class="btn  btn-process">
+									Process To Result
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="search_result latest">
+			<div class="container">
+				<div class="row">
+					<div class="search_title">
+						<h2>
+							Search Result
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature1.jpg" alt="">
+							<div class="discount">
+								-50%
+							</div>
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature2.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature2.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature3.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row margin_top_50">
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature1.jpg" alt="">
+							<div class="discount">
+								-50%
+							</div>
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature2.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature2.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="single_feature_item">
+							<img src="assets/img/feature3.jpg" alt="">
+							<div class="feature_info">
+								<div class="row">
+                                <h4 class="bn-title">
+											All Blue bundle title goes here
+										</h4>
+									<div class="left-area">
+										
+										<div class="icons">
+											<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+										 <span>2 D,3 N</span>
+										</div>
+									</div>
+									<div class="right-area">
+										<span class="text-center">
+											7,000 USD
+										</span>
+										<h4>
+											<img src="assets/img/cost.png" /> 6,000 USD
+										</h4>
+										<div class="icon_view">
+											<a class="view_all-btn" href="">View Detaiil</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!--
+		<section class="thing-area-box">
+			<div class="container">
+				<div class="row">
+					<div class="search_title">
+						<h2 class="">
+							Things To Do
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container no-padding">
+				<div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+				 
+					<ol class="carousel-indicators">
+						<li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#bootstrap-touch-slider" data-slide-to="1">
+						</li>
+					</ol>
+					 
+					<div class="carousel-inner" role="listbox">
+					 
+						<div class="item active">
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					 
+						<div class="item">
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-6 boxx">
+									<div class="single_feature_item thing">
+										<img src="assets/img/car1.png" alt="">
+										<a href="" class="feature_info musk-hover">
+										<div>
+										View Details
+										</div>
+										</a>
+									</div>
+									<div class="think-summary">
+										<h3>
+											Dudhsagar Falls
+										</h3>
+										<p>
+											600m-high waterfall on the Mandovi River
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						 
+					</div>
+					 
+				</div>
+			</div>
+		</section>
+        -->
+		<section class="blog_area_item">
+			<div class="container">
+				<div class="row">
+					<div>
+						<div class="section_title">
+							<h3>
+								Blogs
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 blog-fix">
+						<div class="single_blog">
+						<a href=""><img src="assets/img/blog1.jpg" alt=""></a>
+							<div class="blog_caption">
+								<a href="">the title here</a>
+								<p>
+									Lorem ipsum dolor sit amet, consect etuer adipelit.Lorem ipsum dolor sit amet, consect etuer adipelit.
+								</p>
+								<div class="time_info_left">
+									<p>
+										May 25,2017
+									</p>
+								</div>
+								<div class="time_info_right">
+									<p>
+										<i class="fa fa-heart" aria-hidden="true">
+										</i>
+										33
+									</p>
+									<p>
+										<i class="fa fa-commenting" aria-hidden="true">
+										</i>
+										3
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 blog-fix">
+						<div class="single_blog">
+						<a href=""><img src="assets/img/blog2.jpg" alt=""></a>
+							<div class="blog_caption">
+								<a href="">the title here</a>
+								<p>
+									Lorem ipsum dolor sit amet, consect etuer adipelit.Lorem ipsum dolor sit amet, consect etuer adipelit.
+								</p>
+								<div class="time_info_left">
+									<p>
+										May 25,2017
+									</p>
+								</div>
+								<div class="time_info_right">
+									<p>
+										<i class="fa fa-heart" aria-hidden="true">
+										</i>
+										33
+									</p>
+									<p>
+										<i class="fa fa-commenting" aria-hidden="true">
+										</i>
+										3
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 blog-fix">
+						<div class="single_blog">
+						<a href=""><img src="assets/img/blog3.jpg" alt=""></a>
+							<div class="blog_caption">
+								<a href="">the title here</a>
+								<p>
+									Lorem ipsum dolor sit amet, consect etuer adipelit.Lorem ipsum dolor sit amet, consect etuer adipelit.
+								</p>
+								<div class="time_info_left">
+									<p>
+										May 25,2017
+									</p>
+								</div>
+								<div class="time_info_right">
+									<p>
+										<i class="fa fa-heart" aria-hidden="true">
+										</i>
+										33
+									</p>
+									<p>
+										<i class="fa fa-commenting" aria-hidden="true">
+										</i>
+										3
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 blog-fix">
+						<div class="single_blog">
+							<a href=""><img src="assets/img/blog4.jpg" alt=""></a>
+							<div class="blog_caption">
+								<a href="">the title here</a>
+								<p>
+									Lorem ipsum dolor sit amet, consect etuer adipelit.Lorem ipsum dolor sit amet, consect etuer adipelit.
+								</p>
+								<div class="time_info_left">
+									<p>
+										May 25,2017
+									</p>
+								</div>
+								<div class="time_info_right">
+									<p>
+										<i class="fa fa-heart" aria-hidden="true">
+										</i>
+										33
+									</p>
+									<p>
+										<i class="fa fa-commenting" aria-hidden="true">
+										</i>
+										3
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 feature_bottom_btn btn-top-sp">
+						<a href="" class="view_all">See All</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about_section">
+			<div class="container">
+				<div class="row up_about_area">
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="about_title">
+							<p>
+								ABOUT Boundletour
+							</p>
+						</div>
+						<div class="about_info">
+							<p>
+								We Are Expert in Online Digital Marketing Business.
+							</p>
+							<br>
+							<p>
+								Since 2007, over 300,000 sales peoplehave been certified on the skills of produce to Fawzi SEO.
+							</p>
+						</div>
+						<ul class="social_shear">
+							<li>
+								<a href="https://www.facebook.com/bundletourapp/" target="_blank"><img src="assets/img/fb.png" alt="" /></a>
+							</li>
+						 
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="about_title">
+							<p>
+								USEFUL LINKS
+							</p>
+						</div>
+						<ul class="usefull_link_list">
+							<li>
+								<a href="">Home</a>
+							</li>
+							<li>
+								<a href="">All Boundles</a>
+							</li>
+							<li>
+								<a href="">Sign up</a>
+							</li>
+							<li>
+								<a href="">Sign In</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="about_title">
+							<p>
+								BLOG
+							</p>
+						</div>
+						<div class="blog_link">
+							<ul>
+								<li>
+									<a href="">Exooring Argentina and</a>
+								</li>
+								<li>
+									<a href="">Chile by Bus</a>
+								</li>
+								<li>
+									<a href="">Spirit of Tasmania</a>
+								</li>
+								<li>
+									<a href="">How to Travel to Machu</a>
+								</li>
+								<li>
+									<a href="">Picchu</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="about_title">
+							<p>
+								Payment method
+							</p>
+						</div>
+						<div class="payment_img">
+							<ul>
+								<li>
+									<a href=""><img src="assets/img/method1.png" alt=""></a>
+								</li>
+								<li>
+									<a href=""><img src="assets/img/method2.png" alt=""></a>
+								</li>
+								<li>
+									<a href=""><img src="assets/img/method3.png" alt=""></a>
+								</li>
+								<li>
+									<a href=""><img src="assets/img/method4.png" alt=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+    <div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="fotter_box">
+							<h3>
+								Powered by
+							</h3>
+							<a href="">
+							<img src="assets/img/powed-img.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="fotter_box">
+							<h3>
+								Partners
+							</h3>
+							<a href=""><img src="assets/img/powed-img2.png" alt=""></a>
+							<a href=""><img src="assets/img/powed-img2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="fotter_box">
+							<h3>
+								Design & Development by
+							</h3>
+							<a href="">
+							<img src="assets/img/powed-img2.png" alt=""></a>
+						</div>
+					</div>
+				 <span class="clearfix"></span>
+                 
+                 <div class="fotter">
+							<p>
+								Copyright &copy; 2017 Bundletour. All rights reserved
+							</p>
+						</div>
+                                                                                  
+				</div>
+    
+                
+                
+                
+		</section>
+		<script src="assets/js/jquery.min.js">
+			
+		
+		</script>
+		<script src="assets/js/bootstrap.min.js">
+			
+		
+		</script>
+		<script src="assets/js/main.js">
+			
+		
+		</script>
+        	<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js">
+		</script>
+        		<script>
+			
+$(document).ready(function() {
+    $('#datePicker,#to')
+        .datepicker({
+            format: 'mm/dd/yyyy'
+        })
+        .on('changeDate', function(e) {
+            // Revalidate the date field
+            $('#eventForm').formValidation('revalidateField', 'date');
+        });
+
+    $('#eventForm').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: 'The name is required'
+                    }
+                }
+            },
+            date: {
+                validators: {
+                    notEmpty: {
+                        message: 'The date is required'
+                    },
+                    date: {
+                        format: 'MM/DD/YYYY',
+                        message: 'The date is not a valid'
+                    }
+                }
+            }
+        }
+    });
+});
+
+		</script>
+	 
+	</body>
+
+</html>

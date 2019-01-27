@@ -1,0 +1,413 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .gallari-item img {
+    float: left;
+    width: 47%;
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 163px;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+  .seclect_item input {
+    padding: 3px;
+    width: 94%;
+}
+.btn_booking {
+    background-color: #c0392b;
+    border: 0px solid;
+    padding: 6px 30px !important;
+    margin-top: 36px;
+    margin-left: 0;
+    transition: .3s;
+}
+.search-element .radio label, .search-element label {
+    font-size: 12px;
+    font-family: "Raleway";
+    font-weight: normal;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .feature_bottom_btn {
+    margin-top: 121px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 50px;
+} 
+ .location_image img {
+    width: 100%;
+    margin-top: 70px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.gallari-item img {
+    float: left;
+    width: 47%;
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+    .btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 118px;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+.booking {
+    padding: 50px 30px;
+}
+.btn_booking {
+    margin-left: 0;
+}
+.seclect_item input {
+    padding: 3px;
+    width: 90%;
+}
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 125px;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 480px) {
+    .home-feedback,.home-feedback__avatar,.home-feedback-body__content{
+        width:100%
+    }
+    
+    
+    }
+@media only screen and (max-width: 767px) { 
+ .nav.navbar-nav.navbar-right {
+    margin-right:  auto;
+    margin-top:  auto;
+}
+.header-top .carousel .item,.header-top .carousel .item img{
+    height: 470px;
+}
+.slide-text{
+    top: 32%;
+}
+ .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+     margin-left: 15px;
+ }
+ .search-area,.fetured .col-md-4,.latest .col-md-3,.banner .fix{
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ .no-pd,.blog-fix{
+    padding: 0 15px;
+ }
+ 
+ .message-boxes .slide .item .pd-none{
+    float: none !important;
+ }
+ .home-feedback {
+    margin:60px  auto;
+    }
+#navbar5{
+    background: rgba(255, 244, 255, 0.6) none repeat scroll 0 0;
+    border: 1.5px solid #ddd;
+    padding: 0;
+    
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+#topheader .navbar-nav li > a{
+    text-align: center;
+}
+#topheader .navbar-nav li.active > a, #topheader .navbar-nav li:hover > a {
+    background: rgba(30,159,126, .6);
+    color: #fff;
+    border-radius: 3px;
+}
+.hvrbox {
+    text-align: center;
+    width: 100%;
+}
+.hvrbox img{
+    margin: auto;
+    vertical-align: middle;
+}
+.about_title p{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.about_section{
+    text-align: center;
+}
+.fotter_box {
+    margin-bottom: 30px;
+}
+.section_title h3{
+    text-align: center;
+  
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.owl-dots {
+    width: 100%;
+    left: 40%;
+    position: relative;
+}
+.btn-process {
+    background: #1e9f7e none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 22px;
+    font-weight: 600;
+    margin: 40px auto;
+    padding: 11px 25px;
+    text-align: center;
+}
+}
+
+
+/*------------------------------------------------------*/
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+@media (max-width: 991px) {
+    .slide-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .slide-text > p {
+
+        font-size: 18px;
+    }
+}
+
+
+/*---------- MEDIA 480px ----------*/
+@media  (max-width: 768px) {
+    .slide-text {
+        padding: 10px 50px;
+    }
+    .slide-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .slide-text > p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+}
+@media  (max-width: 480px) {
+    .slide-text {
+        padding: 10px 30px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .slide-text > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .slide-text > a.btn-default, 
+    .slide-text > a.btn-primary {
+        font-size: 10px;
+        line-height: 10px;
+        margin-right: 10px;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .banner-text h2 {
+        font-size: 40px;
+    }
+.banner-text h2 {
+        font-size: 33px;
+    }
+    .location_image img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .seclect_item {
+        width: 100%;
+        float: left;
+    }
+    .seclect_item {
+        width: 50%;
+        margin: 12px auto;
+        text-align: center;
+    }
+    .seclect_item input {
+    padding: 5px;
+}
+    .booking {
+        padding: 30px;
+        font-size: 14px;
+    }
+    .btn_booking {
+        padding: 12px 35px !important;
+        margin-top: 36px;
+        margin-left: 0;
+    }
+    .location_information {
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    .padding-left-off {
+        padding-left: 15px;
+    }
+    .location-info ul li {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .location-info ul {
+        margin-bottom: 40px;
+    }
+    .info-text p {
+        margin-bottom: 40px;
+    }
+    .destination {
+        margin-bottom: 50px;
+    }
+    .tour_plan h3 {
+        padding-bottom: 15px;
+    }
+    .day h4 {
+        margin-bottom: 40px;
+    }
+    .gallari-item img {
+    width: 46%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+    .padding-off {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .travel-table {
+        padding: 20px;
+    }
+    .gallari-item {
+        margin-left: 0;
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+    .day {
+        padding-bottom: 40px;
+    }
+    .travel-table table tbody tr td {
+        padding: 5px;
+        font-size: 14px;
+    }
+     
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+ 
+    .banner-text h2 {
+        font-size: 33px;
+    }
+    .location_image img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .seclect_item {
+        width: 100%;
+        float: left;
+    }
+    .seclect_item {
+        width: 100%;
+        margin: 12px auto;
+        text-align: center;
+    }
+    .booking {
+        padding: 30px;
+        font-size: 14px;
+    }
+    .btn_booking {
+        padding: 12px 35px !important;
+        margin-top: 36px;
+        margin-left: 0;
+    }
+    .location_information {
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    .padding-left-off {
+        padding-left: 15px;
+    }
+    .location-info ul li {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .location-info ul {
+        margin-bottom: 30px;
+    }
+    .info-text p {
+        margin-bottom: 30px;
+    }
+    .destination {
+        margin-bottom: 50px;
+    }
+    .tour_plan h3 {
+        padding-bottom: 15px;
+    }
+    .day h4 {
+        margin-bottom: 30px;
+    }
+    .gallari-item img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .padding-off {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .travel-table {
+        padding: 20px;
+    }
+    .gallari-item {
+        margin-left: 0;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    .day {
+        padding-bottom: 30px;
+    }
+    .travel-table table tbody tr td {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .owl-dots {
+    width: 100%;
+    left: 20%;
+    position: relative;
+}
+}
+
+
+   
+   
+   

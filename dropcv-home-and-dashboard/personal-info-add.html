@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		<link rel="shortcut icon" href="ico/favicon.ico"/>
+		<title>
+			Drop-Resume
+		</title>
+		<link href="css/home.css" rel="stylesheet"/>
+		<link href="css/animate.css" rel="stylesheet"/>
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<link href="css/jasny-bootstrap.css" rel="stylesheet"/>
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"/>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css" rel="stylesheet"/>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css' />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header>
+				<div class="container ">
+					<div class="col-lg-4 col-sm-4 col-md-4  col-xs-12 ">
+						<div class="logo">
+							<a href=""><img  class="logo-img img-responsive"  src="img/logo.png" alt="logo"/></a>
+						</div>
+					</div>
+					<!-- logo -->
+					<div class="col-lg-8 col-sm-8 col-md-8  col-xs-12 ">
+						<div class="control-info">
+							<ul class="top-bar pull-right">
+								<li>
+									<a href="">SIGN UP</a>
+								</li>
+								<li>
+									<a href="">LOG IN <i class="fa fa-sign-in" > </i></a>
+								</li>
+							</ul>
+							<form class="search pull-right ">
+								<input type="text"class="srch-box" placeholder="Search Here..."/>
+								<input type="submit" value=" " class="btn-submit" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="container-fluid ds-bg">
+			<div class="container ">
+				<div class="col-lg-12">
+					<div class="alert alert-danger alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">
+								&times;
+							</span>
+						</button>
+						<strong>
+							Warning!
+						</strong>
+						Better check yourself, you're not looking too good.
+					</div>
+					<div class="alert alert-success">
+						<a href="#" class="close" data-dismiss="alert">&times;</a>
+						<strong>
+							Success!
+						</strong>
+						Your message has been sent successfully.
+					</div>
+				</div>
+				<div class="col-lg-12 txt-right">
+					<a class="cv-btn   " href="">My CV</a>
+					<a class=" view-btn   " href="">View  profile</a>
+				</div>
+				<span class="clearfix">
+				</span>
+				<div class="input-area-bg">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 txt-center">
+						<h3 class="my-cv">
+							My CV
+						</h3>
+					</div>
+					<div class="col-lg-10 col-sm-10 col-md-10 col-xs-12 ">
+						<div class="text-right">
+							<div class="btn-group sp-all">
+								<a href="" class="btn-design"><i class="fa fa-question-circle"></i> Help</a>
+								<a href="" class="btn-help"><i class="fa fa-refresh"></i> CHANGE DESIGN</a>
+							</div>
+						</div>
+					</div>
+					<span class="clearfix">
+					</span>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 center-xs">
+						<!-- tabs left -->
+						<div class="tabbable tabs-left">
+							<ul class="nav  menu-left">
+								<li class="active">
+									<a href="#a" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Personal data <i class="fa fa-caret-right carets active pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#b" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Objective <i class="fa fa-caret-right carets  pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#c" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Work Experience <i class="fa fa-caret-right carets pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#d" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Education <i class="fa fa-caret-right carets pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#e" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Skill <i class="fa fa-caret-right carets pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#f" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Reference <i class="fa fa-caret-right carets pull-right"></i></a>
+								</li>
+								<li>
+									<a href="#g" data-toggle="tab"><i class="fa fa-bars"></i> &nbsp;Language <i class="fa fa-caret-right carets pull-right"></i></a>
+								</li>
+								<li class="add-more">
+									<a href="# "><i class="fa fa-bars"></i> &nbsp;Add More +</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /tabs -->
+					</div>
+					<div class="col-lg-10 col-sm-10 col-md-10 col-xs-12 white-bg">
+						<div class="tab-content">
+							<div class="tab-pane active" id="a">
+								<form id="example1">
+									<div class="field-areas">
+										<div class="form">
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="title" name="title" placeholder="Title" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="address" name="address" placeholder="Address" required="" />
+													<span class="help-block pull-right  txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="phone" class="form-control pull-left fd-size" id="phone" name="phone" placeholder="phone" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="website" name="website" placeholder="Website" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-12">
+												<div class="options">
+													<label>
+														Status
+													</label>
+													<input type="radio" id="r1" name="rr" />
+													<label for="r1">
+														<span>
+														</span>
+														Married
+													</label>
+													<input type="radio" id="r2" name="rr" />
+													<label for="r2">
+														<span>
+														</span>
+														UnMarried
+													</label>
+												</div>
+												<span class="clearfix">
+												</span>
+												<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+													<select class="col-lg-10  col-sm-10 col-md-10 col-xs-12 cus-col ">
+														<option>
+															Select City
+														</option>
+														<option>
+															Ketchup
+														</option>
+														<option>
+															Relish
+														</option>
+													</select>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+													<select class="col-lg-10  col-sm-10 col-md-10 col-xs-12  col-sm-offset-1 col-md-offset-1  col-lg-offset-1 cus-col">
+														<option>
+															Select State
+														</option>
+														<option>
+															Ketchup
+														</option>
+														<option>
+															Relish
+														</option>
+													</select>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+													<select class="  col-lg-10  col-sm-10 col-md-10 col-xs-12 pull-right    cus-col ">
+														<option>
+															Select Country
+														</option>
+														<option>
+															Ketchup
+														</option>
+														<option>
+															Relish
+														</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="facebook" name="facebook" placeholder="Facebook" />
+													<span class="help-block pull-left txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="twitter" name="twitter" placeholder="Twitter" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="linkedin" name="linkedin" placeholder="Linkedin" />
+													<span class="help-block pull-left txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="google_plus" name="google_plus" placeholder="Google Plus" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="fileinput fileinput-new bg-file-inputs pull-left" data-provides="fileinput">
+												<div class="fileinput-preview thumbnail size-box" data-trigger="fileinput">
+												</div>
+												<div>
+													<span class="btn  btn-file">
+														<span class="fileinput-exists btn btn-default">
+															Change
+														</span>
+														<input type="file" name="...">
+													</span>
+													<a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+												</div>
+											</div>
+											<div class="up-text">
+												<h4>
+													Upload Your photo
+												</h4>
+											</div>
+											<span class="clearfix">
+											</span>
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="b">
+								<form id="example2">
+									<div class="field-areas">
+										<div id="txtEditor">
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="c">
+								<form id="example3">
+									<div class="field-areas">
+										<div class="form">
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="title" name="title" placeholder="Title" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="company" name="company" placeholder="Company" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="location" name="location" placeholder="Location" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="designation" name="designation" placeholder="Designation" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="date-form dates">
+													<div class="control-group">
+														<div class="controls ">
+															<div class="input-group">
+																<input id="date-picker-1" type="text" class="date-picker form-control txt-sze" placeholder="Start Date"/>
+																<label for="date-picker-1" class="input-group-addon btn">
+																	<span class="glyphicon glyphicon-calendar">
+																	</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="date-form dates pull-right">
+													<div class="control-group ">
+														<div class="controls ">
+															<div class="input-group  ">
+																<input id="date-picker-2" type="text" class="date-picker form-control txt-sze " placeholder="End date"/>
+																<label for="date-picker-2" class="input-group-addon btn">
+																	<span class="glyphicon glyphicon-calendar">
+																	</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+										</div>
+										<p class="fdsf">
+											Write Description Here
+										</p>
+										<div id="worktxtEditor">
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="d">
+								<form id="example4">
+									<div class="field-areas">
+										<div class="col-lg-12 a-bdr">
+											<div class="col-lg-12  bar-bg">
+												<div class="col-lg-10 tp-title">
+													<h3>
+														Dhaka govt. high school
+													</h3>
+													<span>
+														( 1st jan, 2010- 25th march, 2013 )
+													</span>
+												</div>
+												<div class="col-lg-2 text-right edit-btn">
+													*School &nbsp;&nbsp;
+													<a href=""><i class="fa fa-pencil-square"></i></a>
+												</div>
+											</div>
+											<div class="col-lg-12 pd-area">
+												<h4 class="sub-title">
+													BUSINESS STURDISE
+												</h4>
+												<p>
+													oDesk is my secret weapon for seeking out, hiring, and managing my team. Because of oDesk, I have long-lasting relationships with freelancers I trust.
+													<br />
+													oDesk is my secret weapon for seeking out, hiring, and managing my team. Because of oDesk, I have long-lasting relationships with freelancers I trust.
+												</p>
+											</div>
+										</div>
+										<div class="col-lg-12 a-bdr">
+											<div class="col-lg-12  bar-bg">
+												<div class="col-lg-10 tp-title">
+													<h3>
+														Dhaka govt. high school
+													</h3>
+													<span>
+														( 1st jan, 2010- 25th march, 2013 )
+													</span>
+												</div>
+												<div class="col-lg-2 text-right edit-btn">
+													*School &nbsp;&nbsp;
+													<a href=""><i class="fa fa-pencil-square"></i></a>
+												</div>
+											</div>
+											<div class="col-lg-12 pd-area">
+												<h4 class="sub-title">
+													BUSINESS STURDISE
+												</h4>
+												<p>
+													oDesk is my secret weapon for seeking out, hiring, and managing my team. Because of oDesk, I have long-lasting relationships with freelancers I trust.
+													<br />
+													oDesk is my secret weapon for seeking out, hiring, and managing my team. Because of oDesk, I have long-lasting relationships with freelancers I trust.
+												</p>
+											</div>
+										</div>
+										<div class="form">
+											<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-tht-size" id="title" name="title" placeholder="Title" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="institute" name="institute" placeholder="Institute" required="" />
+													<span class="help-block pull-left txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="location" name="location" placeholder="Location" required="" />
+													<span class="help-block pull-right  txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="major" name="major" placeholder="major" required="" />
+													<span class="help-block pull-left txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="result" name="result" placeholder="Result" required="" />
+													<span class="help-block pull-right  txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="date-form dates">
+													<div class="control-group">
+														<div class="controls ">
+															<div class="input-group">
+																<input id="date-picker-4" type="text" class="date-picker form-control txt-sze"placeholder="Start date" />
+																<label for="date-picker-4" class="input-group-addon btn">
+																	<span class="glyphicon glyphicon-calendar">
+																	</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="date-form dates pull-right">
+													<div class="control-group ">
+														<div class="controls ">
+															<div class="input-group  ">
+																<input id="date-picker-5" type="text" class="date-picker form-control txt-sze " placeholder="End date"/>
+																<label for="date-picker-5" class="input-group-addon btn">
+																	<span class="glyphicon glyphicon-calendar">
+																	</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+										</div>
+										<p class="fdsf">
+											Write Description Here
+										</p>
+										<div id="edutxtEditor">
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="e">
+								<form id="example5">
+									<div class="field-areas" style="min-height: 400px;overflow: hidden;">
+										<div class="form">
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="skill" name="skill" placeholder="Skill Name" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="institute" name="institute" placeholder="Rating here" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<button type="submit" class="btn btn-large add-skills">
+												<i class="fa fa-plus-square">
+												</i>
+												Add A New Skill
+											</button>
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="f">
+								<form id="example5">
+									<div class="field-areas" style="min-height: 400px;overflow: hidden;">
+										<div class="form">
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="name" name="name" placeholder="Name" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="designation" name="designation" placeholder="Designation" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="company" name="company" placeholder="Company" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-right fd-size" id="location" name="location" placeholder="Location" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="email" class="form-control pull-left fd-size" id="email" name="email" placeholder="Email" required="" />
+													<span class="help-block pull-left  txt-left">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="phone" class="form-control pull-right fd-size" id="phone" name="phone" placeholder="Phone" required="" />
+													<span class="help-block pull-right txt-right">
+														Help text if necesary.
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="g">
+								<form id="example5">
+									<div class="field-areas" style="min-height: 400px;overflow: hidden;">
+										<div class="form">
+											<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="form-group">
+													<input type="text" class="form-control pull-left fd-size" id="language" name="language" placeholder="Language Name" required="" />
+													<span class="help-block pull-left  txt-left">
+														Ex - English
+													</span>
+												</div>
+											</div>
+											<span class="clearfix">
+											</span>
+											<div class="col-lg-4">
+												speaking rate here
+											</div>
+											<div class="col-lg-4">
+												writing rate here
+											</div>
+											<div class="col-lg-4">
+												listening here
+											</div>
+											<span class="clearfix">
+											</span>
+											<br />
+											<br />
+											<br />
+											<br />
+											<br />
+											<button type="submit" class="btn btn-large add-skills">
+												<i class="fa fa-plus-square">
+												</i>
+												Add A New language
+											</button>
+										</div>
+									</div>
+									<div class="col-lg-12 bgg-col">
+										<div class="btn-group pull-right center-xs ">
+											<button type="button" class="btn btn-large ">
+												<i class="fa fa-search">
+												</i>
+												Quick Preview
+											</button>
+											<button type="submit" class="btn btn-large">
+												<i class="fa fa-floppy-o">
+												</i>
+												Save
+											</button>
+											<button type="button" class="btn btn-large">
+												<i class="fa fa-cloud-download">
+												</i>
+												Download
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container no_pading">
+				<span class="copy">
+					&copy; 2014 BYTE LOGISTICS
+				</span>
+			</div>
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js">
+		</script>
+		<script src="js/scrolltopcontrol.js">
+		</script>
+		<script src="js/custom.js">
+		</script>
+		<script src="js/index.js">
+		</script>
+		<script src="js/jasny-bootstrap.min.js">
+		</script>
+		<script src="js/jquery-ui.js">
+				
+		</script>
+		<script>
+			
+$(".date-picker").datepicker();
+
+$(".date-picker").on("change", function () {
+    var id = $(this).attr("id");
+    var val = $("label[for='" + id + "']").text();
+    $("#msg").text(val + " changed");
+});
+
+		</script>
+		<script>
+			
+			
+			
+        $( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+});
+        
+		
+		
+		</script>
+		<script src="js/editor.js">
+		</script>
+		<link href="css/editor.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript">
+			
+		$(document).ready( function() {
+            
+         $("#txtEditor").Editor();      
+         $("#worktxtEditor").Editor(); 
+          $("#edutxtEditor").Editor();                    
+         
+    });
+  
+		</script>
+		<script>
+			
+  $(function() {
+    $('#menuBarDiv>div.btn-group:first-child').addClass("firstChild");
+    $('#menuBarDiv>div.btn-group:nth-child(2)').addClass("secondChild ");
+      $('#menuBarDiv>div.btn-group:nth-child(3)').addClass("thirdChild ");
+        $('#menuBarDiv>div.btn-group:nth-child(4)').addClass("fourthChild ");
+          $('#menuBarDiv>div.btn-group:nth-child(5)').addClass("fifthChild ");
+           $('#menuBarDiv>div.btn-group:nth-child(6)').addClass("sixChild ");
+            $('#menuBarDiv>div.btn-group:nth-child(7)').addClass("seventhChild ");
+             $('#menuBarDiv>div.btn-group:nth-child(8)').addClass("eightChild ");
+              $('#menuBarDiv>div.btn-group:nth-child(9)').addClass("ninthChild ");
+   
+});
+  
+		</script>
+	</body>
+
+</html>

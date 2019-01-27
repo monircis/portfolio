@@ -1,0 +1,63 @@
+.badge{
+    background: none repeat scroll 0 0 #f1ae24;
+}
+.single_language > ul > li > i{
+    color: #f1ae24;
+}
+.progress-bar {
+    background-color: #f1ae24;
+}
+.one span:after {
+    border-bottom: 1px solid #f1ae24;
+}
+.title > h1{
+    color: #f1ae24;
+}
+.user_info > h1{
+    color: #f1ae24;
+}
+.user_info > h2{
+    color: #f1ae24;
+}
+.sub__text > span > i{
+    color: #f1ae24;
+    padding-right: 4px;
+}
+.single_contact > p > i {
+    background: #f1ae24 none repeat scroll 0% 0%;
+}
+.single_refer > p >i{
+    color: #f1ae24;
+}
+.sub__text > h5 > i{
+    color: #f1ae24;
+}
+.user_img > img{
+    border: 2px solid #f1ae24;
+}
+.title > i{
+    color: #f1ae24;
+}
+.user_name > h1{
+    color: #f1ae24;
+}
+.user_name > p > i{
+    color: #f1ae24;
+    border: 1px solid #f1ae24;
+}
+.user_info  > p > i{
+    color:#f1ae24 ;
+}
+.title > h1{
+    border-bottom: 1px solid #f1ae24;
+}
+.sub__text{
+    border-left: 1px solid #f1ae24 ;
+}
+.sub__text > i{
+    color: #f1ae24;
+}
+.skills > i{
+    color: #f1ae24;
+}
+ 

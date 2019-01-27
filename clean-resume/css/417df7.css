@@ -1,0 +1,79 @@
+/*
+------------------------------------
+- Color css for- #f1aes4
+------------------------------------
+*/
+
+a:hover {
+    color: #417df7;
+}
+.shape-line-one {
+    border-bottom: 1px solid #417df7;
+}
+.shape-line-two {
+    border-bottom: 1px solid #fff;
+}
+.shape-line-three {
+    border-bottom: 1px solid #417df7;
+}
+.shape-line-four {
+    border-bottom: 1px solid #417df7;
+}
+.one span::after {
+    border-bottom: 1px solid #417df7;
+}
+.top-photo {
+    background-color: #417df7;
+}
+.user-name > p {
+    color: #417df7;
+}
+.icon_add > i {
+    background: #417df7 none repeat scroll 0% 0%;
+}
+.badge {
+    background: none repeat scroll 0 0 #417df7;
+}
+.single-language > ul > li > i {
+    color: #417df7;
+}
+.progress-bar {
+    background-color: #417df7;
+}
+.single-box > p > i {
+    color: #417df7;
+}
+.sub-section > h5 > i {
+    color: #417df7;
+}
+.sub-section > h4 > i {
+    color: #417df7;
+}
+.pro > h1 {
+    color: #000;
+}
+.pro > h1:before,
+.pro > h1:after {
+    border-bottom: 3px dotted #417df7;
+}
+.text > h1 {
+    color: #417df7;
+}
+.css-shapes-preview {
+    background-color: #417df7;
+}
+.info-box > h2 {
+    color: #417df7;
+}
+.btn-interest,
+.btn-interest:hover,
+.btn-interest:focus {
+    background-color: #417df7;
+    color: #fff;
+    outline: none;
+    box-shadow: 0 1px 2px #666;
+    cursor: default;
+}
+.single-language >h2 i {
+    color: #417df7;
+}

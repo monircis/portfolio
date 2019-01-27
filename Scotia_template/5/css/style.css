@@ -1,0 +1,345 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background: #dff0d8;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+    margin-top: 0px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+}
+.name_ti{
+    margin-top: 0px;
+}
+.container {
+    max-width: 1000px !important;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 0px;
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+.fix{
+    overflow: hidden;
+}
+.no-padding{
+    padding-left: 0px;
+}
+
+.skills_area{
+    clear: both;
+}
+.padding_off{
+    padding-left: 0px;
+}
+.single_language > ul > li{
+    list-style-type: none;
+    float: left;
+    padding-right: 4px;
+}
+.single_language > ul{
+    padding-top: 0px;
+}
+.sub__text > h3{
+    margin-bottom: 5px;
+}
+.single_language{
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+.sub__text > h5{
+    margin: 0px;
+    line-height: 20px;
+}
+.ti_lagn{
+    margin-right: 10px;
+    width: 65px;
+}
+.references{
+    clear: both;
+}
+.text_email{
+    padding-top: 8px;
+}
+.title {
+    margin-top: 40px;
+    clear: both;
+    display: block;
+}
+.sub__text > h2{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.clr{
+    clear: both;
+}
+.refar_box{
+    margin-bottom: 20px;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 0px;
+}
+.one {
+    line-height: 0.5;
+    text-align: left;
+}
+.one span {
+    display: inline-block;
+    position: relative;
+}
+.one span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 776px;
+}
+.one span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.title > h1 > span > i {
+    color: #FFF;
+    margin-left: -37px;
+    padding-right: 34px;
+}
+.edu > h1 > span > i{
+     margin-left: -40px;
+     padding-right: 30px;
+ }
+.title > i{
+    float: right;
+    margin-top: -23px;
+}
+.objective{
+    padding-top: 30px;
+}
+.hobbi{
+    overflow: hidden;
+}
+.fix{
+    overflow: hidden;
+}
+.sub__text > h4{
+    margin: 0px;
+    line-height: 20px;
+}
+.sub__text > h3{
+    margin-top: 0px;
+}
+.sub__text > p{
+    padding-top: 5px;
+}
+.user_name,.text{
+    text-align: center;
+}
+.user_name{
+    margin-top: -128px;
+}
+.text > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.text > h3{
+    margin: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.single_address{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.single_address > h2{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+.single_address > p{
+    text-align: center;
+
+}
+.address{
+    padding: 0px 15px;
+
+}
+.off_padding{
+    padding: 0px;
+}
+.bottom_main{
+    padding: 15px 15px 40px;
+    overflow: hidden;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.css-shapes-preview {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+    margin-left: 11px;
+    float: left;
+    margin-top: -13px;
+}
+.skills{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.name_ti{
+    margin: 0px;
+}
+.single_edu,.hobbies,.top_gap{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.single_refer{
+    margin-top: 30px;
+}
+.language{
+    margin-top: 20px;
+}
+.pro > h1 {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+.pro > h1:before,
+.pro > h1:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 10px;
+    width: 600px;
+}
+.pro{
+    padding-top: 20px;
+    overflow: hidden;
+    clear: both;
+}
+.pro {
+    line-height: 0.5;
+    text-align: center;
+}
+.pro h1:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.pro h1:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.year > p {
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.refar_box > h3{
+    margin: 0px;
+}
+.top1 {
+    height: 130px;
+    padding-top: 10px;
+}
+.sub__text > h4 > i{
+    padding-right: 5px;
+ }
+.sub__text > h5 > i{
+    padding-right: 5px;
+}
+.refar_box > p > i{
+    padding-right: 5px;
+}
+.user_name  > p{
+    margin-top: 0px;
+}
+
+
+.badge{ margin-bottom: 5px;
+    margin-right: 5px;}
+
+.top_gap_skill{border:1px solid red;}
+
+
+/*responsive css*/
+@media (max-width: 980px) {
+    .adress {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 800px) {
+    .adress {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 360px) {
+    .user_img{
+        padding-left: 43px;
+    }
+    .user_name{
+        text-align: center;
+    }
+    .adress{
+        padding-left: 20px;
+    }
+    .text_email{
+        padding-bottom: 10px;
+    }
+    .user_name > p{
+        text-align: center;
+    }
+    .top2{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .user_img{
+        padding-left: 25px;
+    }
+    .user_name{
+        text-align: center;
+    }
+    .adress{
+        padding-left: 20px;
+    }
+    .text_email{
+        padding-bottom: 10px;
+    }
+    .user_name > p{
+        text-align: center;
+    }
+    .top2{
+        margin-bottom: 20px;
+    }
+    .hob{
+        font-size: 20px;
+    }
+}

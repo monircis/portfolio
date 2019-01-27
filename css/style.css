@@ -1,0 +1,188 @@
+/*!
+ * main css  file
+ */
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+     color: #000;
+    position: relative;
+    background-size: cover;
+     background: url(../img/darkgrain.png) repeat !important;
+ }
+ .color-main{
+    color: #1ac6ff;
+ }
+ .position-top{
+    background: #000 !important;
+    border-radius: 0 !important;
+   
+ }
+a,a:hover,a:focus,a:active{
+    color: #1ac6ff;
+    }
+ .navbar-nav{
+    margin: auto;
+    float: none;
+    }
+.navbar-nav > li {
+    display: inline-table;
+    float: none;
+    text-transform: uppercase;
+    }
+.navbar-nav > li a:hover{color: #fff;   }
+.position-top{
+    margin-top: 40px;
+    }
+.position-top .nav > li.high-options {
+    border: 1px solid #1ac6ff;
+    border-radius: 2px;
+    margin-right: 10px;
+    float: right;
+    border-bottom: 1px solid #eee;
+    }
+.nav > li a:hover{
+    color: #1ac6ff;
+    }
+.position-top .nav .high-options  a{
+    padding: 7px 10px;
+    color: #1ac6ff;
+    text-transform: uppercase;
+    }
+.position-top .high-options :hover{
+    background: #eee;
+    border-radius: 2px;
+    overflow: hidden;
+    }
+.position-top .high-options a:hover{
+    color:#1ac6ff;
+    background: #eee;
+    }
+.position-top .text-logo{  
+    width: 126px;
+    position: relative ;
+}
+.position-top .text-logo a{   
+   background: #1ac6ff none repeat scroll 0 0;
+    border: 1px dotted #1ac6ff;
+    border-radius: 50%;
+    color: #fff;
+    font-family: "Megrim",cursive;
+    font-size: 19px;
+    font-weight: 500;
+    height: 126px;
+    line-height: 96px;
+    margin-top: -55px;
+    position: absolute;
+    text-shadow: 0 3px #fff;
+    width: 126px;
+    }
+      .navbar-nav > li:focus, .navbar-nav > li:hover{ color: #1ac6ff;  }
+.position-top .text-logo a:hover{
+    color: #fff;
+    background: #1ac6ff;
+}
+/*!
+ * banner  text  css
+ */
+.text-inspire{
+    color: #000;
+    margin-top:  50px;
+    }
+    
+.text-inspire h1{
+     font-family: "Megrim",cursive;   
+      font-size: 37px;
+    }
+.text-inspire h4{
+   font-size: 25px;
+   font-weight: 100;
+    }
+.btn-service-list{margin-top: 20px;}
+.btn-service-list i{  color: #1ac6ff;font-size: 68px;margin-bottom: 30px;}
+.btn-service-list a{
+    float: left;
+    display: inline-block;
+border: 1px solid #1ac6ff;
+border-radius: 2px;
+margin: 3px;
+padding: 7px 10px;
+color: #1ac6ff;
+text-transform: uppercase;
+border-bottom: 1px solid #eee;  
+
+}
+.btn-service-list a:hover,.btn-service-list a.active{
+color:#eee;
+background: #1ac6ff;
+text-decoration: none;
+}
+/*!
+ * about section  css
+ */
+ .content-area{
+     overflow: hidden;
+    margin-top: 160px;
+    display: block;
+ }
+.bg-white{
+    background: #fff;
+   overflow: hidden;
+}
+#about-section h2{
+    font-weight:  lighter;
+       margin-bottom: 24px;
+    }
+#about-section p{
+     font-size: 17px;
+    font-weight: lighter;
+    
+}
+.same-space{padding-top: 70px;
+padding-bottom: 70px;}
+
+/*!
+ * services section  css
+ */
+ 
+.bg-ash{
+    background: #efefef;
+}
+.service-heading{
+ 
+    font-family: "Megrim",cursive ;
+    color: #1ac6ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img-show div{
+    margin-bottom: 25px;
+}
+.text-inspire h6 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+ 
+.nav > li.hvnone > a:focus, .nav > li.hvnone > a:hover{background: transparent !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

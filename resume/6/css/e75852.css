@@ -1,0 +1,62 @@
+.top1{
+    height: 35px;
+    background-color: #e75852;
+    padding-top: 10px;
+}
+.user_name  > p{
+    color: #e75852;
+    margin-top: 0px;
+}
+.icon_add > i {
+    border-radius: 50%;
+    background: #e75852 none repeat scroll 0% 0%;
+    color: #FFF;
+    padding: 10px 12px 11px 12px;
+    font-size: 20px;
+    margin-right: 6px;
+    float: left;
+}
+.badge{
+    background: none repeat scroll 0 0 #e75852;
+    color: #fff;
+    float: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 9px;
+}
+.single_language > ul > li > i{
+    color: #e75852;
+}
+.progress-bar-danger {
+    background-color: #e75852;
+}
+.year > p {
+    background: #e75852 none repeat scroll 0% 0%;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.single_refer > p > i{
+    font-size: 20px;
+    color: #e75852;
+    padding-right: 8px;
+}
+.sub__text > h5 > i{
+    font-size: 15px;
+    color: #e75852;
+    padding-right: 8px;
+}
+.sub__text > h4 > i{
+    font-size: 15px;
+    color: #e75852;
+    padding-right: 8px;
+}
+.container {
+    max-width: 1100px !important;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 25px 25px;
+    margin-top: 128px;
+    margin-bottom: 50px;
+
+}
